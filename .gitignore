@@ -1,2 +1,8 @@
 .env
 .venv
+__pycache__/
+*.py[cod]
+analysis-cache.json
+badge-contacts.csv
+hack-the-north-contacts-*.csv
+posts.json

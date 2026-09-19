@@ -9,11 +9,12 @@ from urllib.parse import urlparse
 import requests
 from dotenv import load_dotenv
 
-load_dotenv()
+from services.linkedin_scraper import scrape_linkedin_profile
+
+load_dotenv(override=True)
 
 GPTZERO_URL = "https://api.gptzero.me/v2/predict/text"
 BACKBOARD_URL = "https://app.backboard.io/api/threads/messages"
-PROXYCURL_POSTS_URL = "https://nubela.co/proxycurl/api/v2/linkedin/profile/posts"
 
 
 def _request_error(response: requests.Response, service: str) -> RuntimeError:
@@ -59,21 +60,7 @@ def fetch_last_three_posts(profile_url: str, posts_file: str | None = None) -> l
     if posts_file:
         posts = load_posts_file(posts_file)
     else:
-        api_key = os.getenv("PROXYCURL_API_KEY")
-        if not api_key:
-            raise RuntimeError(
-                "Set PROXYCURL_API_KEY to fetch LinkedIn posts, or pass --posts-file for a local export"
-            )
-        response = requests.get(
-            PROXYCURL_POSTS_URL,
-            headers={"Authorization": f"Bearer {api_key}"},
-            params={"linkedin_profile_url": profile_url, "page_size": 3, "sort_by": "CREATED"},
-            timeout=60,
-        )
-        if not response.ok:
-            raise _request_error(response, "LinkedIn post provider")
-        payload = response.json()
-        posts = [_normalise_post(post) for post in payload.get("results", payload)]
+        posts = scrape_linkedin_profile(profile_url)["posts"]
     posts = [post for post in posts if post["text"]]
     return posts[:3]
 
@@ -116,7 +103,14 @@ def investigate_with_backboard(text: str, ai_probability: float) -> str:
     )
     if not response.ok:
         raise _request_error(response, "Backboard")
-    return response.json().get("content", "")
+    result = response.json()
+    content = result.get("content", "")
+    lowered = content.casefold()
+    if any(marker in lowered for marker in ("add credits", "billing page", "free credit is reserved")):
+        raise RuntimeError("Backboard returned an account billing/credit error; no report was saved")
+    if not content.strip():
+        raise RuntimeError("Backboard returned an empty investigation report")
+    return content
 
 
 def load_badge_contacts(path: str) -> list[str]:
@@ -141,12 +135,22 @@ def load_badge_contacts(path: str) -> list[str]:
 
 def analyze_profile(profile_url: str, posts_file: str | None = None) -> dict[str, Any]:
     results = []
-    for post in fetch_last_three_posts(profile_url, posts_file):
+    profile_details = None
+    if not posts_file:
+        scraped = scrape_linkedin_profile(profile_url)
+        profile_details = scraped["profile"]
+        posts = scraped["posts"]
+    else:
+        posts = fetch_last_three_posts(profile_url, posts_file)
+    for post in posts:
         detection = analyze_text_for_slop(post["text"])
         probability = detection["ai_probability"] or 0.0
         detection["backboard_report"] = investigate_with_backboard(post["text"], probability)
         results.append({**post, **detection})
-    return {"profile_url": profile_url, "posts_analyzed": len(results), "posts": results}
+    report = {"profile_url": profile_url, "posts_analyzed": len(results), "posts": results}
+    if profile_details is not None:
+        report["profile"] = profile_details
+    return report
 
 
 def main() -> None:

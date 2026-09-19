@@ -1,0 +1,6 @@
+{
+  "contacts": [
+    {"name": "Maya Chen", "role": "Founder", "badge_id": "demo-001"},
+    {"name": "Jordan Patel", "role": "Engineer", "badge_id": "demo-002"}
+  ]
+}
