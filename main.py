@@ -1,103 +1,171 @@
-import os
-import requests
+import argparse
+import csv
 import json
+import os
+from pathlib import Path
+from typing import Any
+from urllib.parse import urlparse
+
+import requests
 from dotenv import load_dotenv
 
-# Load your API keys
 load_dotenv()
-GPTZERO_API_KEY = os.getenv("GPTZERO_API_KEY")
-BACKBOARD_API_KEY = os.getenv("BACKBOARD_API_KEY")
 
-# ---------------------------------------------------------
-# 1. GPTZERO: The "Slop" Detector
-# ---------------------------------------------------------
-def analyze_text_for_slop(text):
-    print("🔍 Scanning for AI slop with GPTZero...")
-    url = "https://api.gptzero.me/v2/predict/text"
-    
-    headers = {
-        "Accept": "application/json",
-        "Content-Type": "application/json",
-        "x-api-key": GPTZERO_API_KEY
+GPTZERO_URL = "https://api.gptzero.me/v2/predict/text"
+BACKBOARD_URL = "https://app.backboard.io/api/threads/messages"
+PROXYCURL_POSTS_URL = "https://nubela.co/proxycurl/api/v2/linkedin/profile/posts"
+
+
+def _request_error(response: requests.Response, service: str) -> RuntimeError:
+    try:
+        detail = response.json()
+    except ValueError:
+        detail = response.text[:500]
+    return RuntimeError(f"{service} returned HTTP {response.status_code}: {detail}")
+
+
+def _validate_linkedin_url(url: str) -> str:
+    parsed = urlparse(url)
+    if parsed.scheme not in {"http", "https"} or parsed.netloc not in {
+        "linkedin.com",
+        "www.linkedin.com",
+    }:
+        raise ValueError(f"Not a LinkedIn profile URL: {url}")
+    if not parsed.path.rstrip("/").startswith("/in/"):
+        raise ValueError(f"Expected a LinkedIn /in/ profile URL: {url}")
+    return url
+
+
+def _normalise_post(post: dict[str, Any]) -> dict[str, Any]:
+    text = post.get("text") or post.get("post_content") or post.get("content") or ""
+    return {
+        "text": str(text).strip(),
+        "url": post.get("url") or post.get("post_url"),
+        "published_at": post.get("published_at") or post.get("posted_date"),
     }
-    
-    payload = {
-        "document": text
-    }
-    
-    response = requests.post(url, headers=headers, json=payload)
-    
-    if response.status_code == 200:
-        data = response.json()
-        # GPTZero returns a 'completely_generated_prob' (0-1) and detailed sentence-by-sentence analysis
-        ai_prob = data['documents'][0]['completely_generated_prob']
-        classification = data['documents'][0]['class'] # 'ai', 'human', or 'mixed'
-        return ai_prob, classification, data
+
+
+def load_posts_file(path: str) -> list[dict[str, Any]]:
+    with Path(path).open(encoding="utf-8") as file:
+        data = json.load(file)
+    posts = data.get("posts", data) if isinstance(data, dict) else data
+    if not isinstance(posts, list):
+        raise ValueError("Posts file must contain a JSON list or an object with a 'posts' list")
+    return [_normalise_post(post) for post in posts if isinstance(post, dict)]
+
+
+def fetch_last_three_posts(profile_url: str, posts_file: str | None = None) -> list[dict[str, Any]]:
+    profile_url = _validate_linkedin_url(profile_url)
+    if posts_file:
+        posts = load_posts_file(posts_file)
     else:
-        print("GPTZero API Error:", response.text)
-        return None, None, None
+        api_key = os.getenv("PROXYCURL_API_KEY")
+        if not api_key:
+            raise RuntimeError(
+                "Set PROXYCURL_API_KEY to fetch LinkedIn posts, or pass --posts-file for a local export"
+            )
+        response = requests.get(
+            PROXYCURL_POSTS_URL,
+            headers={"Authorization": f"Bearer {api_key}"},
+            params={"linkedin_profile_url": profile_url, "page_size": 3, "sort_by": "CREATED"},
+            timeout=60,
+        )
+        if not response.ok:
+            raise _request_error(response, "LinkedIn post provider")
+        payload = response.json()
+        posts = [_normalise_post(post) for post in payload.get("results", payload)]
+    posts = [post for post in posts if post["text"]]
+    return posts[:3]
 
-# ---------------------------------------------------------
-# 2. BACKBOARD.IO: The Brain & Investigator
-# ---------------------------------------------------------
-def investigate_slop_with_backboard(slop_text, ai_probability):
-    print(f"🧠 Initiating Backboard.io Investigation (AI Probability: {ai_probability * 100:.2f}%)...")
-    
-    # Backboard unifies assistants, threads, memory, and 17,000+ models.
-    # We are using an HTTP request here for transparency, but you can also use their official SDK!
-    
-    url = "https://api.backboard.io/v1/chat/completions" # Adjust if you are using their Assistants/Threads endpoint
-    
-    headers = {
-        "Authorization": f"Bearer {BACKBOARD_API_KEY}",
-        "Content-Type": "application/json"
-    }
-    
-    prompt = f"""
-    You are an investigative AI specializing in detecting hallucinations and misinformation.
-    A user has submitted text that was flagged with a {ai_probability * 100}% chance of being AI-generated slop.
-    
-    Analyze the following text. Tell me:
-    1. What the likely prompt was that generated this text.
-    2. Any factual hallucinations or bizarre "AIisms" (like 'delve', 'tapestry', etc.) present.
-    
-    Text: {slop_text}
-    """
-    
-    payload = {
-        "model": "claude-3-5-sonnet", # Backboard routes to whatever model you want
-        "messages": [{"role": "user", "content": prompt}],
-        "memory": True # Turn on Backboard's killer feature: persistent state memory
-    }
-    
-    response = requests.post(url, headers=headers, json=payload)
-    
-    if response.status_code == 200:
-        return response.json()['choices'][0]['message']['content']
-    else:
-        print("Backboard API Error:", response.text)
-        return None
 
-# ---------------------------------------------------------
-# 3. TYING IT TOGETHER (Hackathon Magic)
-# ---------------------------------------------------------
-if __name__ == "__main__":
-    # Test with some obvious AI-generated content
-    suspicious_text = (
-        "In today's fast-paced digital landscape, it is crucial to delve into the tapestry of innovation. "
-        "Furthermore, as an AI language model, I can tell you that the capital of France is Paris."
+def analyze_text_for_slop(text: str) -> dict[str, Any]:
+    api_key = os.getenv("GPTZERO_API_KEY")
+    if not api_key:
+        raise RuntimeError("Set GPTZERO_API_KEY before running an analysis")
+    response = requests.post(
+        GPTZERO_URL,
+        headers={"Accept": "application/json", "x-api-key": api_key},
+        json={"document": text},
+        timeout=60,
     )
-    
-    # Step 1: Detect
-    ai_prob, classification, full_data = analyze_text_for_slop(suspicious_text)
-    
-    if ai_prob is not None:
-        print(f"Verdict: {classification.upper()} (Probability: {ai_prob * 100:.2f}%)")
-        
-        # Step 2: Investigate if it crosses our threshold
-        if ai_prob > 0.50:
-            report = investigate_slop_with_backboard(suspicious_text, ai_prob)
-            print("\n--- BACKBOARD INVESTIGATIVE REPORT ---")
-            print(report)
+    if not response.ok:
+        raise _request_error(response, "GPTZero")
+    document = response.json()["documents"][0]
+    return {
+        "ai_probability": document.get("completely_generated_prob"),
+        "classification": document.get("class"),
+        "gptzero": document,
+    }
+
+
+def investigate_with_backboard(text: str, ai_probability: float) -> str:
+    api_key = os.getenv("BACKBOARD_API_KEY")
+    if not api_key:
+        raise RuntimeError("Set BACKBOARD_API_KEY before running an analysis")
+    prompt = (
+        "Review this LinkedIn post as a writing-quality investigator. GPTZero estimated "
+        f"{ai_probability:.1%} probability of full AI generation. Identify concrete signs "
+        "of generic AI writing, unsupported factual claims, or manipulation. Be cautious: "
+        "a detector score is not proof. Give a concise explanation.\n\nPost:\n" + text
+    )
+    response = requests.post(
+        BACKBOARD_URL,
+        headers={"X-API-Key": api_key, "Content-Type": "application/json"},
+        json={"content": prompt, "stream": False},
+        timeout=90,
+    )
+    if not response.ok:
+        raise _request_error(response, "Backboard")
+    return response.json().get("content", "")
+
+
+def load_badge_contacts(path: str) -> list[str]:
+    file_path = Path(path)
+    if file_path.suffix.lower() == ".csv":
+        with file_path.open(newline="", encoding="utf-8-sig") as file:
+            rows = list(csv.DictReader(file))
+    else:
+        with file_path.open(encoding="utf-8") as file:
+            data = json.load(file)
+        rows = data.get("contacts", data) if isinstance(data, dict) else data
+    urls = []
+    for row in rows:
+        if isinstance(row, str):
+            candidate = row
         else:
-            print("This looks like authentic human work. No investigation needed.")
+            candidate = row.get("linkedin_url") or row.get("linkedin") or row.get("profile_url")
+        if candidate:
+            urls.append(_validate_linkedin_url(candidate))
+    return list(dict.fromkeys(urls))
+
+
+def analyze_profile(profile_url: str, posts_file: str | None = None) -> dict[str, Any]:
+    results = []
+    for post in fetch_last_three_posts(profile_url, posts_file):
+        detection = analyze_text_for_slop(post["text"])
+        probability = detection["ai_probability"] or 0.0
+        detection["backboard_report"] = investigate_with_backboard(post["text"], probability)
+        results.append({**post, **detection})
+    return {"profile_url": profile_url, "posts_analyzed": len(results), "posts": results}
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Analyze the last three LinkedIn posts for AI slop.")
+    source = parser.add_mutually_exclusive_group(required=True)
+    source.add_argument("--profile-url", help="LinkedIn /in/ profile URL")
+    source.add_argument("--contacts-file", help="Badge contact export in JSON or CSV format")
+    parser.add_argument("--posts-file", help="Local JSON posts fixture/export for one profile")
+    args = parser.parse_args()
+
+    profiles = [args.profile_url] if args.profile_url else load_badge_contacts(args.contacts_file)
+    if not profiles:
+        raise ValueError("No LinkedIn profile URLs found in the contacts file")
+    reports = [analyze_profile(profile, args.posts_file if args.profile_url else None) for profile in profiles]
+    print(json.dumps(reports[0] if args.profile_url else {"contacts": reports}, indent=2))
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except (RuntimeError, ValueError, requests.RequestException) as error:
+        raise SystemExit(f"Error: {error}")
