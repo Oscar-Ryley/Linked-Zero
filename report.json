@@ -1,0 +1,1591 @@
+{
+  "contacts": [
+    {
+      "profile_url": "https://www.linkedin.com/in/oscar-ryley/",
+      "posts_analyzed": 3,
+      "posts": [
+        {
+          "text": "Wrapping up an inspiring summer at the NQCC!\n\nOur 2025 summer placement students recently wrapped up their projects with some incredible final presentations – and the breadth of their work was nothing short of outstanding. From developing new tools and control systems in ion trapping to advancing superconducting qubit research, building systems for neutral atom experiments, and even supporting the NQCC's annual flagship event – the UK Quantum Hackathon 2025 – their contributions have been truly remarkable.\n\nIon Trapping Quantum Computing:\n- Ian Alaman built a Python package for generating energy level and pulse sequence diagrams.\n- Zoe Smith connected the Ion Trapping lab’s devices to a real-time monitoring dashboard.\n- Muhammad Masood (our first Master’s student) completed his MSc thesis in Applied Quantum Computing while developing a modular laser distribution and control system.\n\nSuperconducting Quantum Computing:\n- Lily Shen investigated the detection and mitigation of TLS losses in superconducting resonators and qubits.\n- Daniel Hesk developed workflows to fine-tune quantum device amplifiers for optimal qubit signal readings.\n\nNeutral Atom Quantum Computing:\n- Myles Harrison created systems supporting the production of a 3D Magneto-optical Trap.\n- Navaneeth Hari Krishnan designed and built architecture for PDH locking - instrumental in enabling two-qubit entanglement gates.\n\nQuantum Computing Innovation: \n- Oscar Ryley coordinated logistics and on-site support for the UK Quantum Hackathon 2025, among other events.\n\nA huge thank you to all the supervisors and mentors who supported these projects, and a big well done to our students for their hard work, creativity, and commitment to advancing quantum technologies. We wish each of them the very best in their next steps, and look forward to seeing the impact they’ll make on the future of quantum computing!\n\n#QuantumComputing #CareersInQuantum #SummerPlacements #STEMCareers #FutureOfQuantum\n\nUK Research and Innovation EPSRC STFC Quantum Software Lab",
+          "publishedAt": "{'timestamp': 1757668202814, 'date': '2025-09-12T09:10:02.814Z', 'postedAgoShort': '1yr', 'postedAgoText': '1 year ago • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 1,
+          "classification": "ai",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              },
+              {
+                "start_sentence_index": 1,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.8254776901813464
+              },
+              {
+                "start_sentence_index": 3,
+                "num_sentences": 1,
+                "completely_generated_prob": 0
+              },
+              {
+                "start_sentence_index": 4,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              },
+              {
+                "start_sentence_index": 5,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              },
+              {
+                "start_sentence_index": 6,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              },
+              {
+                "start_sentence_index": 7,
+                "num_sentences": 1,
+                "completely_generated_prob": 0
+              },
+              {
+                "start_sentence_index": 8,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              },
+              {
+                "start_sentence_index": 9,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              },
+              {
+                "start_sentence_index": 10,
+                "num_sentences": 1,
+                "completely_generated_prob": 0
+              },
+              {
+                "start_sentence_index": 11,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              },
+              {
+                "start_sentence_index": 12,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              },
+              {
+                "start_sentence_index": 13,
+                "num_sentences": 1,
+                "completely_generated_prob": 0
+              },
+              {
+                "start_sentence_index": 14,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              },
+              {
+                "start_sentence_index": 15,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.8254776901813464
+              },
+              {
+                "start_sentence_index": 17,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              },
+              {
+                "start_sentence_index": 18,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              }
+            ],
+            "completely_generated_prob": 1,
+            "average_generated_prob": 1,
+            "predicted_class": "ai",
+            "confidence_score": 1,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [
+              {
+                "start": 513,
+                "end": 544,
+                "text": "Ion Trapping Quantum Computing:",
+                "reason": "header"
+              },
+              {
+                "start": 896,
+                "end": 930,
+                "text": "Superconducting Quantum Computing:",
+                "reason": "header"
+              },
+              {
+                "start": 1150,
+                "end": 1181,
+                "text": "Neutral Atom Quantum Computing:",
+                "reason": "header"
+              },
+              {
+                "start": 1403,
+                "end": 1433,
+                "text": "Quantum Computing Innovation: ",
+                "reason": "header"
+              }
+            ],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.9966343548242906,
+                "sentence": "Wrapping up an inspiring summer at the NQCC!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.003365645175709449,
+                  "ai": 0.9837325187854492,
+                  "paraphrased": 0.012901836038841394
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9982174694099847,
+                "sentence": "Our 2025 summer placement students recently wrapped up their projects with some incredible final presentations – and the breadth of their work was nothing short of outstanding.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0017825305900153318,
+                  "ai": 0.9752769541719518,
+                  "paraphrased": 0.022940515238032904
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9972226509248947,
+                "sentence": "From developing new tools and control systems in ion trapping to advancing superconducting qubit research, building systems for neutral atom experiments, and even supporting the NQCC's annual flagship event – the UK Quantum Hackathon 2025 – their contributions have been truly remarkable.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.002777349075105321,
+                  "ai": 0.9734747774734719,
+                  "paraphrased": 0.02374787345142281
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0,
+                "sentence": "Ion Trapping Quantum Computing:",
+                "perplexity": 0,
+                "should_mask": true,
+                "masking_reason": "header",
+                "class_probabilities": {
+                  "human": 1,
+                  "ai": 0,
+                  "paraphrased": 0
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9936828023274001,
+                "sentence": "- Ian Alaman built a Python package for generating energy level and pulse sequence diagrams.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.006317197672599791,
+                  "ai": 0.9644866374643184,
+                  "paraphrased": 0.029196164863081766
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9938154784117609,
+                "sentence": "- Zoe Smith connected the Ion Trapping lab’s devices to a real-time monitoring dashboard.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.00618452158823909,
+                  "ai": 0.9770615683257651,
+                  "paraphrased": 0.016753910085995808
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9956964048766859,
+                "sentence": "- Muhammad Masood (our first Master’s student) completed his MSc thesis in Applied Quantum Computing while developing a modular laser distribution and control system.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.00430359512331403,
+                  "ai": 0.9786836669000852,
+                  "paraphrased": 0.01701273797660068
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0,
+                "sentence": "Superconducting Quantum Computing:",
+                "perplexity": 0,
+                "should_mask": true,
+                "masking_reason": "header",
+                "class_probabilities": {
+                  "human": 1,
+                  "ai": 0,
+                  "paraphrased": 0
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9954404400910593,
+                "sentence": "- Lily Shen investigated the detection and mitigation of TLS losses in superconducting resonators and qubits.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.004559559908940715,
+                  "ai": 0.971221183339511,
+                  "paraphrased": 0.024219256751548273
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.996530794192846,
+                "sentence": "- Daniel Hesk developed workflows to fine-tune quantum device amplifiers for optimal qubit signal readings.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0034692058071540866,
+                  "ai": 0.9694590342530205,
+                  "paraphrased": 0.027071759939825454
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0,
+                "sentence": "Neutral Atom Quantum Computing:",
+                "perplexity": 0,
+                "should_mask": true,
+                "masking_reason": "header",
+                "class_probabilities": {
+                  "human": 1,
+                  "ai": 0,
+                  "paraphrased": 0
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9953482126470397,
+                "sentence": "- Myles Harrison created systems supporting the production of a 3D Magneto-optical Trap.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.004651787352960303,
+                  "ai": 0.9736009507637732,
+                  "paraphrased": 0.02174726188326648
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9960464078550788,
+                "sentence": "- Navaneeth Hari Krishnan designed and built architecture for PDH locking - instrumental in enabling two-qubit entanglement gates.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.003953592144921156,
+                  "ai": 0.9674121147343018,
+                  "paraphrased": 0.02863429312077705
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0,
+                "sentence": "Quantum Computing Innovation: ",
+                "perplexity": 0,
+                "should_mask": true,
+                "masking_reason": "header",
+                "class_probabilities": {
+                  "human": 1,
+                  "ai": 0,
+                  "paraphrased": 0
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9963969349433444,
+                "sentence": "- Oscar Ryley coordinated logistics and on-site support for the UK Quantum Hackathon 2025, among other events.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0036030650566556814,
+                  "ai": 0.973983384153179,
+                  "paraphrased": 0.02241355079016537
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9978337344491456,
+                "sentence": "A huge thank you to all the supervisors and mentors who supported these projects, and a big well done to our students for their hard work, creativity, and commitment to advancing quantum technologies.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0021662655508544394,
+                  "ai": 0.9768498077915955,
+                  "paraphrased": 0.020983926657550143
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.998074368842354,
+                "sentence": "We wish each of them the very best in their next steps, and look forward to seeing the impact they’ll make on the future of quantum computing!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0019256311576460073,
+                  "ai": 0.9801206410045369,
+                  "paraphrased": 0.017953727837817138
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9961742099189937,
+                "sentence": "#QuantumComputing #CareersInQuantum #SummerPlacements #STEMCareers #FutureOfQuantum",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0038257900810061665,
+                  "ai": 0.9916619230972883,
+                  "paraphrased": 0.004512286821705507
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9970127392267781,
+                "sentence": "UK Research and Innovation EPSRC STFC Quantum Software Lab",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.002987260773221828,
+                  "ai": 0.990359271864677,
+                  "paraphrased": 0.006653467362101176
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0,
+              "ai": 1,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "ai": 1,
+                "mixed": 0,
+                "human": 0
+              }
+            },
+            "subclass": {
+              "ai": {
+                "predicted_class": "pure_ai",
+                "result_message": "",
+                "confidence_score": 1,
+                "confidence_category": "high",
+                "class_probabilities": {
+                  "pure_ai": 1,
+                  "ai_paraphrased": 0
+                },
+                "confidence_scores_raw": {
+                  "identity": {
+                    "pure_ai": 1,
+                    "ai_paraphrased": 0
+                  }
+                },
+                "confidence_thresholds_raw": {
+                  "identity": {
+                    "ai_paraphrased": {
+                      "reject": 0.33,
+                      "low": 0.6,
+                      "medium": 0.8
+                    },
+                    "pure_ai": {
+                      "reject": 0.33,
+                      "low": 0.6,
+                      "medium": 0.8
+                    }
+                  }
+                }
+              }
+            },
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written by AI.",
+            "result_sub_message": null,
+            "document_classification": "AI_ONLY",
+            "inputText": "Wrapping up an inspiring summer at the NQCC!\n\nOur 2025 summer placement students recently wrapped up their projects with some incredible final presentations – and the breadth of their work was nothing short of outstanding. From developing new tools and control systems in ion trapping to advancing superconducting qubit research, building systems for neutral atom experiments, and even supporting the NQCC's annual flagship event – the UK Quantum Hackathon 2025 – their contributions have been truly remarkable.\n\nIon Trapping Quantum Computing:\n- Ian Alaman built a Python package for generating energy level and pulse sequence diagrams.\n- Zoe Smith connected the Ion Trapping lab’s devices to a real-time monitoring dashboard.\n- Muhammad Masood (our first Master’s student) completed his MSc thesis in Applied Quantum Computing while developing a modular laser distribution and control system.\n\nSuperconducting Quantum Computing:\n- Lily Shen investigated the detection and mitigation of TLS losses in superconducting resonators and qubits.\n- Daniel Hesk developed workflows to fine-tune quantum device amplifiers for optimal qubit signal readings.\n\nNeutral Atom Quantum Computing:\n- Myles Harrison created systems supporting the production of a 3D Magneto-optical Trap.\n- Navaneeth Hari Krishnan designed and built architecture for PDH locking - instrumental in enabling two-qubit entanglement gates.\n\nQuantum Computing Innovation: \n- Oscar Ryley coordinated logistics and on-site support for the UK Quantum Hackathon 2025, among other events.\n\nA huge thank you to all the supervisors and mentors who supported these projects, and a big well done to our students for their hard work, creativity, and commitment to advancing quantum technologies. We wish each of them the very best in their next steps, and look forward to seeing the impact they’ll make on the future of quantum computing!\n\n#QuantumComputing #CareersInQuantum #SummerPlacements #STEMCareers #FutureOfQuantum\n\nUK Research and Innovation EPSRC STFC Quantum Software Lab",
+            "document_id": null
+          },
+          "backboard_report": "This LinkedIn post exhibits several hallmarks often associated with generic AI writing, primarily in its **stylistic choices and phrasing**:\n\n1.  **Over-reliance on generic positive adjectives:** Words like \"inspiring,\" \"incredible,\" \"outstanding,\" \"truly remarkable,\" \"huge thank you,\" \"big well done,\" and \"very best\" are used frequently to convey enthusiasm without much variation or unique expression. This creates a polished but somewhat bland and predictable tone common in AI-generated text aiming for positive sentiment.\n2.  **Formulaic structure and transitions:** The post follows a highly predictable structure (introduction, detailed list of achievements, general thanks, forward-looking closing) with smooth, almost seamless transitions. While effective, this lack of stylistic deviation is characteristic of AI optimization for clarity and flow.\n3.  **Slightly formal and corporate lexicon:** Phrases such as \"nothing short of outstanding,\" \"breadth of their work,\" and \"instrumental in enabling\" contribute to a consistently professional, yet somewhat impersonal, tone often found in AI-generated corporate communications.\n\nRegarding **unsupported factual claims or manipulation**:\nThe post makes highly specific factual claims about named individuals and their detailed technical projects. While these claims are specific and plausible within the field of quantum computing, their veracity cannot be confirmed *solely from the text*. If these names and projects are fictitious, it would constitute manipulation, but the text itself provides no internal inconsistencies or red flags to suggest this. Given the current date (Sept 2026), referencing \"2025 summer placement students\" and \"UK Quantum Hackathon 2025\" is entirely consistent and plausible.\n\nIn conclusion, the post's **writing style strongly aligns with generic AI generation due to its predictable positive language and corporate tone**. However, the **specificity of the technical details and named individuals suggests either significant human input or a highly sophisticated AI capable of generating plausible, detailed, and contextually relevant (though potentially fabricated) factual content**, rather than just generic \"fluff.\" The detector score likely reflects the stylistic elements rather than the factual content."
+        },
+        {
+          "text": "💡Quantum Computing for Energy Workshop💡\n\nI facilitated for the NQCC's workshop, bridging the gap between Quantum Computing research and the Energy Sector, at The Royal Society; in partnership with the Department for Science, Innovation and Technology, and the Department for Energy Security and Net Zero.\n\nThe day's insightful discussion explored how advancements in Quantum Computing could create new opportunities across the energy ecosystem. A range of speakers from across government, academia, and industry provided their perspectives, with a focus on collaboration, practically adopting technologies, and enabling research into real-world use cases.\n\nI handled event logistics, timings, and had the chance to facilitate two breakout sessions. Whilst managing these aspects, I had the opportunity to learn from a variety of experts and reflect on how pivotal end-users are in defining how a technology develops.\n\nA highlight was seeing my branding on screens and banners in the historic hall at the Royal Society, with attendees commenting on the contrast of discussing the future of energy in such a storied, ancient building.\n\nThis was another of the many responsibilities I was given during my Summer Placement at the National Quantum Computing Centre (NQCC). I want to extend a huge thank you to Mariana Manso for giving me the opportunity to work on this event, and to Rob Whiteman for his support.",
+          "publishedAt": "{'timestamp': 1758878032060, 'date': '2025-09-26T09:13:52.060Z', 'postedAgoShort': '11mo', 'postedAgoText': '11 months ago • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 5.2789136414900325e-06,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 1,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 2,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 4,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 6,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 7,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              }
+            ],
+            "completely_generated_prob": 5.2789136414900325e-06,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.9999947210863586,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.0010818300462785103,
+                "sentence": "💡Quantum Computing for Energy Workshop💡",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9989181699537215,
+                  "ai": 0.0010571732357826029,
+                  "paraphrased": 2.4656810495907526e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0005998912475959529,
+                "sentence": "I facilitated for the NQCC's workshop, bridging the gap between Quantum Computing research and the Energy Sector, at The Royal Society; in partnership with the Department for Science, Innovation and Technology, and the Department for Energy Security and Net Zero.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.999400108752404,
+                  "ai": 0.0005792797717871622,
+                  "paraphrased": 2.0611475808790733e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0009016481037913923,
+                "sentence": "The day's insightful discussion explored how advancements in Quantum Computing could create new opportunities across the energy ecosystem.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9990983518962087,
+                  "ai": 0.0008782992936489366,
+                  "paraphrased": 2.334881014245572e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0006196329155225483,
+                "sentence": "A range of speakers from across government, academia, and industry provided their perspectives, with a focus on collaboration, practically adopting technologies, and enabling research into real-world use cases.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9993803670844774,
+                  "ai": 0.0005979481603980166,
+                  "paraphrased": 2.1684755124531648e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00017773376000602801,
+                "sentence": "I handled event logistics, timings, and had the chance to facilitate two breakout sessions.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998222662399939,
+                  "ai": 0.0001573538092520133,
+                  "paraphrased": 2.037995075401471e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 8.57447747518675e-05,
+                "sentence": "Whilst managing these aspects, I had the opportunity to learn from a variety of experts and reflect on how pivotal end-users are in defining how a technology develops.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9999142552252481,
+                  "ai": 6.14460275304173e-05,
+                  "paraphrased": 2.42987472214502e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00010353984001815599,
+                "sentence": "A highlight was seeing my branding on screens and banners in the historic hall at the Royal Society, with attendees commenting on the contrast of discussing the future of energy in such a storied, ancient building.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998964601599818,
+                  "ai": 7.782553124204576e-05,
+                  "paraphrased": 2.571430877611022e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00010461105220453942,
+                "sentence": "This was another of the many responsibilities I was given during my Summer Placement at the National Quantum Computing Centre (NQCC).",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998953889477955,
+                  "ai": 7.889677067028637e-05,
+                  "paraphrased": 2.5714281534253035e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00010341528021214396,
+                "sentence": "I want to extend a huge thank you to Mariana Manso for giving me the opportunity to work on this event, and to Rob Whiteman for his support.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998965847197878,
+                  "ai": 7.858927960430942e-05,
+                  "paraphrased": 2.4826000607834542e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.9999947210863586,
+              "ai": 5.2789136414900325e-06,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.9999947210863586,
+                "ai": 5.2789136414900325e-06,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "💡Quantum Computing for Energy Workshop💡\n\nI facilitated for the NQCC's workshop, bridging the gap between Quantum Computing research and the Energy Sector, at The Royal Society; in partnership with the Department for Science, Innovation and Technology, and the Department for Energy Security and Net Zero.\n\nThe day's insightful discussion explored how advancements in Quantum Computing could create new opportunities across the energy ecosystem. A range of speakers from across government, academia, and industry provided their perspectives, with a focus on collaboration, practically adopting technologies, and enabling research into real-world use cases.\n\nI handled event logistics, timings, and had the chance to facilitate two breakout sessions. Whilst managing these aspects, I had the opportunity to learn from a variety of experts and reflect on how pivotal end-users are in defining how a technology develops.\n\nA highlight was seeing my branding on screens and banners in the historic hall at the Royal Society, with attendees commenting on the contrast of discussing the future of energy in such a storied, ancient building.\n\nThis was another of the many responsibilities I was given during my Summer Placement at the National Quantum Computing Centre (NQCC). I want to extend a huge thank you to Mariana Manso for giving me the opportunity to work on this event, and to Rob Whiteman for his support.",
+            "document_id": null
+          },
+          "backboard_report": "This LinkedIn post shows **no concrete signs of generic AI writing, unsupported factual claims, or manipulation.**\n\n**Explanation:**\nThe post contains specific, personal details and observations that are characteristic of human authorship, such as \"seeing my branding on screens and banners,\" \"attendees commenting on the contrast of discussing the future of energy in such a storied, ancient building,\" and direct, named thank-yous to \"Mariana Manso\" and \"Rob Whiteman.\" These elements, along with the specific context of a \"Summer Placement at the National Quantum Computing Centre (NQCC),\" are difficult for generic AI to convincingly simulate without direct, real-world input. While some phrases are common in professional writing (e.g., \"bridging the gap,\" \"insightful discussion\"), their use here is integrated with unique, verifiable details, suggesting human composition. All factual claims appear to be verifiable and there is no evidence of manipulative language."
+        },
+        {
+          "text": "🎮 DurJam: Remastered (2025) 🎮\n\nSparked by the positive reception to my Godot Tutorial for DurHack 2024, which encouraged a large number of its participants to explore game development for the first time, I decided to create the opportunity for a community that I was looking for.\n\nAfter a five year hiatus, I organised DurJam, the Durham University Computing Society Game Jam, bringing the event back for the first time since 2020.\n\nOur hybrid event, which took place in June, brought students together to work on collaborative projects, share knowledge through workshops, and laid the groundwork for a supportive group of student game developers.\n\nWith a focus on rebuilding (or 'remastering') the community, I undertook projects that created lasting resources for future developers. For example, as the Web Developer and Gaming Editor for The Bubble Durham I joined community members in writing games journalism, publishing our work.\n\nI'm particularly proud of my work producing a series of video workshops. These tutorials were led by members of the Durham tech community: Kaalkidan (Kaal) Sahele, Maks Nowak, Luka Mihajlovic, Eleanor Claxton, Toby O'Donoghue, and myself. Many thanks to everyone who shared their expertise on a range of relevant topics.\n\nThese tutorials will help shape a growing game development community at Durham, and beyond, that I am excited to see flourish this upcoming academic year.",
+          "publishedAt": "{'timestamp': 1756394265135, 'date': '2025-08-28T15:17:45.135Z', 'postedAgoShort': '1yr', 'postedAgoText': '1 year ago • Edited • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 8.265566845533782e-06,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 1,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 2,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 3,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 4,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 6,
+                "num_sentences": 3,
+                "completely_generated_prob": 0.00408719312638748
+              },
+              {
+                "start_sentence_index": 9,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              }
+            ],
+            "completely_generated_prob": 8.265566845533782e-06,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.9999833218480766,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.0001810349284731455,
+                "sentence": "🎮 DurJam: Remastered (2025) 🎮",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998189650715269,
+                  "ai": 3.0593826044785664e-05,
+                  "paraphrased": 0.00015044110242835984
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00019050865187643736,
+                "sentence": "Sparked by the positive reception to my Godot Tutorial for DurHack 2024, which encouraged a large number of its participants to explore game development for the first time, I decided to create the opportunity for a community that I was looking for.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998094913481236,
+                  "ai": 1.4283000150032512e-05,
+                  "paraphrased": 0.00017622565172640485
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0002127077168309544,
+                "sentence": "After a five year hiatus, I organised DurJam, the Durham University Computing Society Game Jam, bringing the event back for the first time since 2020.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9997872922831691,
+                  "ai": 1.086569250587741e-05,
+                  "paraphrased": 0.00020184202432507698
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00019559527815043458,
+                "sentence": "Our hybrid event, which took place in June, brought students together to work on collaborative projects, share knowledge through workshops, and laid the groundwork for a supportive group of student game developers.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998044047218496,
+                  "ai": 1.9370521702887948e-05,
+                  "paraphrased": 0.00017622475644754664
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00018907338022300526,
+                "sentence": "With a focus on rebuilding (or 'remastering') the community, I undertook projects that created lasting resources for future developers.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.999810926619777,
+                  "ai": 2.1736509004034176e-05,
+                  "paraphrased": 0.0001673368712189711
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0002322359578738464,
+                "sentence": "For example, as the Web Developer and Gaming Editor for The Bubble Durham I joined community members in writing games journalism, publishing our work.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9997677640421262,
+                  "ai": 9.257504135600766e-06,
+                  "paraphrased": 0.00022297845373824563
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0002228490949215711,
+                "sentence": "I'm particularly proud of my work producing a series of video workshops.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9997771509050785,
+                  "ai": 6.565595769187114e-05,
+                  "paraphrased": 0.00015719313722969996
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0001839813355063037,
+                "sentence": "These tutorials were led by members of the Durham tech community: Kaalkidan (Kaal) Sahele, Maks Nowak, Luka Mihajlovic, Eleanor Claxton, Toby O'Donoghue, and myself.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998160186644937,
+                  "ai": 2.1316196968389367e-05,
+                  "paraphrased": 0.00016266513853791434
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00021284059928433814,
+                "sentence": "Many thanks to everyone who shared their expertise on a range of relevant topics.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9997871594007156,
+                  "ai": 2.78007575907118e-05,
+                  "paraphrased": 0.00018503984169362632
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00019691262756702595,
+                "sentence": "These tutorials will help shape a growing game development community at Durham, and beyond, that I am excited to see flourish this upcoming academic year.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.999803087372433,
+                  "ai": 3.168802018884547e-05,
+                  "paraphrased": 0.00016522460737818047
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.9999833218480766,
+              "ai": 1.6678151923434528e-05,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.9999833218480766,
+                "ai": 1.6678151923434528e-05,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "🎮 DurJam: Remastered (2025) 🎮\n\nSparked by the positive reception to my Godot Tutorial for DurHack 2024, which encouraged a large number of its participants to explore game development for the first time, I decided to create the opportunity for a community that I was looking for.\n\nAfter a five year hiatus, I organised DurJam, the Durham University Computing Society Game Jam, bringing the event back for the first time since 2020.\n\nOur hybrid event, which took place in June, brought students together to work on collaborative projects, share knowledge through workshops, and laid the groundwork for a supportive group of student game developers.\n\nWith a focus on rebuilding (or 'remastering') the community, I undertook projects that created lasting resources for future developers. For example, as the Web Developer and Gaming Editor for The Bubble Durham I joined community members in writing games journalism, publishing our work.\n\nI'm particularly proud of my work producing a series of video workshops. These tutorials were led by members of the Durham tech community: Kaalkidan (Kaal) Sahele, Maks Nowak, Luka Mihajlovic, Eleanor Claxton, Toby O'Donoghue, and myself. Many thanks to everyone who shared their expertise on a range of relevant topics.\n\nThese tutorials will help shape a growing game development community at Durham, and beyond, that I am excited to see flourish this upcoming academic year.",
+            "document_id": null
+          },
+          "backboard_report": "The LinkedIn post exhibits strong indicators of human authorship, directly contradicting the idea of generic AI writing.\n\n**Concrete signs against generic AI writing:**\n\n*   **Specific Naming & Context:** The post includes a high density of specific, unique details: \"DurJam,\" \"Godot Tutorial for DurHack 2024,\" \"Durham University Computing Society Game Jam,\" \"The Bubble Durham\" (a specific publication), and a list of six distinct individuals by name (Kaalkidan Sahele, Maks Nowak, Luka Mihajlovic, Eleanor Claxton, Toby O'Donoghue, and the author). Generic AI struggles to invent such a detailed, interconnected web of specific, plausible entities and people for a particular context.\n*   **Personal Narrative & Pacing:** The first-person narrative (\"I decided,\" \"I organised,\" \"I undertook,\" \"I'm particularly proud\") consistently outlines personal agency and motivation. The pacing and flow feel natural for a human sharing their accomplishments.\n*   **Subtle Human Touch:** The playful use of the word \"'remastering'\" in relation to rebuilding the community is a subtle pun that adds a human touch.\n\n**Unsupported factual claims or manipulation:**\n\n*   The claims made are primarily about the author's involvement, event details, and the contributions of named individuals. While terms like \"positive reception\" and \"large number\" are subjective, they are common and acceptable framing in a personal update. There is no evidence of demonstrably false factual claims or manipulative language; the post serves as a straightforward, positive update on community building efforts.\n\n**Conclusion:** The post's richness in specific names, dates, and a personal, enthusiastic narrative strongly suggests human authorship. The GPTZero score aligns with this assessment."
+        }
+      ],
+      "profile": {
+        "name": "Unknown",
+        "headline": "",
+        "about": "",
+        "profileUrl": "https://www.linkedin.com/in/oscar-ryley/",
+        "avatarUrl": ""
+      }
+    },
+    {
+      "profile_url": "https://www.linkedin.com/in/alex-aumais/",
+      "posts_analyzed": 3,
+      "posts": [
+        {
+          "text": "Announcing the secret project I've been working on the last year! We think Hacker Badges will revolutionize Hack the North, letting hackers connect faster, have more fun while in lines, and be inspired by our tech to build even cooler projects. I can't wait to see thousands of these deployed in just 4 days. If you're at the event this weekend, come say hi! Check out the ultra close-ups at https://lnkd.in/eMtvvRGk",
+          "publishedAt": "{'timestamp': 1789418072496, 'date': '2026-09-14T20:34:32.496Z', 'postedAgoShort': '5d', 'postedAgoText': '5 days ago • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 4.854188612477665e-05,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 5,
+                "completely_generated_prob": 0.00010005932717626924
+              }
+            ],
+            "completely_generated_prob": 4.854188612477665e-05,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.9999514581138752,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.00033623533082582154,
+                "sentence": "Announcing the secret project I've been working on the last year!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9996637646691742,
+                  "ai": 0.00021525318204954788,
+                  "paraphrased": 0.00012098214877627366
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00022826755377058303,
+                "sentence": "We think Hacker Badges will revolutionize Hack the North, letting hackers connect faster, have more fun while in lines, and be inspired by our tech to build even cooler projects.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9997717324462294,
+                  "ai": 8.680981777661193e-05,
+                  "paraphrased": 0.00014145773599397112
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00041982284472255377,
+                "sentence": "I can't wait to see thousands of these deployed in just 4 days.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9995801771552775,
+                  "ai": 0.00029476673001966724,
+                  "paraphrased": 0.00012505611470288656
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0003320825354207721,
+                "sentence": "If you're at the event this weekend, come say hi!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9996679174645793,
+                  "ai": 0.00019868902518108188,
+                  "paraphrased": 0.00013339351023969022
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00022642515542411546,
+                "sentence": "Check out the ultra close-ups at https://lnkd.in/eMtvvRGk",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9997735748445759,
+                  "ai": 9.53421125373732e-05,
+                  "paraphrased": 0.00013108304288674227
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.9999514581138752,
+              "ai": 4.854188612477665e-05,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.9999514581138752,
+                "ai": 4.854188612477665e-05,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "Announcing the secret project I've been working on the last year! We think Hacker Badges will revolutionize Hack the North, letting hackers connect faster, have more fun while in lines, and be inspired by our tech to build even cooler projects. I can't wait to see thousands of these deployed in just 4 days. If you're at the event this weekend, come say hi! Check out the ultra close-ups at https://lnkd.in/eMtvvRGk",
+            "document_id": null
+          },
+          "backboard_report": "As a writing-quality investigator, here's a review of the LinkedIn post:\n\n**Signs Consistent with Generic AI Writing:**\n\n*   **Buzzword Reliance:** The use of \"revolutionize\" is a common, high-impact buzzword frequently employed in AI-generated promotional content to convey significant change without specific detail.\n*   **Formulaic Benefit Listing:** The triplet of benefits (\"connect faster, have more fun while in lines, and be inspired by our tech...\") is a structured, comprehensive, and somewhat generic way AI often presents advantages, aiming for broad appeal.\n*   **Predictable Enthusiasm:** The tone is uniformly positive and enthusiastic, which AI models are proficient at producing to sound engaging, often lacking the subtle shifts, unique metaphors, or unexpected observations that can characterize human expression.\n\n**Unsupported Factual Claims:**\n\n*   **Unsubstantiated Future Outcomes:** Claims like \"will revolutionize Hack the North,\" \"letting hackers connect faster,\" \"have more fun while in lines,\" and \"be inspired by our tech to build even cooler projects\" are presented as definite future outcomes rather than aspirations, hypotheses, or goals. While future-oriented, they assert unproven results with a high degree of certainty without offering any basis for this conviction beyond the project's existence.\n\n**Manipulation:**\n\n*   No clear signs of manipulation beyond standard persuasive marketing language, which aims to generate excitement and engagement. The post's intent appears to be legitimate promotion.\n\n**Concise Explanation:**\nDespite the AI detector's low score, the post exhibits several common characteristics of AI-generated promotional text: a reliance on buzzwords, formulaic listing of benefits, and a consistently upbeat but somewhat generic enthusiastic tone. Furthermore, it presents aspirational future outcomes as certainties without supporting evidence, a common trait in persuasive but unsubstantiated AI marketing copy."
+        },
+        {
+          "text": "Part badge, part mini computer, the Hacker Badge is your interactive companion for exploring everything Hack the North has to offer. ⚙️\n\nDesigned to encourage hackers to explore, experiment and dream bigger throughout the weekend, it adds a new layer to the Hack the North experience while leaving plenty of room to make it your own.\n\nThere’s plenty to discover. Take a closer look at badge.hackthenorth.com. 👀\n\n#HackTheNorth #HTN2026 #Hackathon #Tech #Hardware",
+          "publishedAt": "{'timestamp': 1789599702373, 'date': '2026-09-16T23:01:42.373Z', 'postedAgoShort': '3d', 'postedAgoText': '3 days ago • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 0.008720264419077663,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 1,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 2,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 4,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              }
+            ],
+            "completely_generated_prob": 0.008720264419077663,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.9825479351336124,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.18864806971975903,
+                "sentence": "Part badge, part mini computer, the Hacker Badge is your interactive companion for exploring everything Hack the North has to offer.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.811351930280241,
+                  "ai": 0.0009499954003256627,
+                  "paraphrased": 0.18769807431943336
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.20272972185814747,
+                "sentence": "Designed to encourage hackers to explore, experiment and dream bigger throughout the weekend, it adds a new layer to the Hack the North experience while leaving plenty of room to make it your own.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.7972702781418525,
+                  "ai": 0.001148233860064991,
+                  "paraphrased": 0.20158148799808248
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.23210378807471396,
+                "sentence": "There’s plenty to discover.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.767896211925286,
+                  "ai": 0.001088783345079736,
+                  "paraphrased": 0.23101500472963424
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.21823610295019671,
+                "sentence": "Take a closer look at badge.hackthenorth.com.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.7817638970498033,
+                  "ai": 0.0011481079064420386,
+                  "paraphrased": 0.21708799504375467
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.21795107679340855,
+                "sentence": "#HackTheNorth #HTN2026 #Hackathon #Tech #Hardware",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.7820489232065915,
+                  "ai": 0.0009959099652602236,
+                  "paraphrased": 0.21695516682814833
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.9825479351336124,
+              "ai": 0.01745206486638754,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.9825479351336124,
+                "ai": 0.01745206486638754,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "Part badge, part mini computer, the Hacker Badge is your interactive companion for exploring everything Hack the North has to offer. ⚙️\n\nDesigned to encourage hackers to explore, experiment and dream bigger throughout the weekend, it adds a new layer to the Hack the North experience while leaving plenty of room to make it your own.\n\nThere’s plenty to discover. Take a closer look at badge.hackthenorth.com. 👀\n\n#HackTheNorth #HTN2026 #Hackathon #Tech #Hardware",
+            "document_id": null
+          },
+          "backboard_report": "This LinkedIn post exhibits characteristics common in concise, promotional marketing copy, whether generated by AI or a human.\n\n**Signs of generic AI writing:** The language is polished, grammatically correct, and uses common marketing tropes like \"interactive companion,\" \"explore, experiment and dream bigger,\" and \"adds a new layer.\" While this contributes to a somewhat generic feel lacking distinct human flair or unexpected phrasing, it's also typical for professional social media posts designed for broad appeal. There are no obvious grammatical errors, awkward constructions, or repetitive patterns that strongly indicate AI generation.\n\n**Unsupported factual claims:** The claims about the Hacker Badge being \"part badge, part mini computer\" and \"interactive\" are descriptive and foundational to the post's purpose. They are not presented as external facts requiring immediate third-party verification, but rather as features of a product being introduced and promoted by its creators. The provided link (badge.hackthenorth.com) serves as the primary source for further details and support, making the claims internally consistent within the post's context.\n\n**Manipulation:** The post is clearly promotional, aiming to generate excitement and direct traffic to the Hacker Badge website. It uses positive, aspirational language to encourage engagement. This is standard marketing practice and doesn't appear to be deceptive or manipulative beyond typical promotional efforts.\n\n**Conclusion:** While the language is somewhat generic and highly polished, consistent with how AI might generate marketing copy, there are no concrete, definitive \"red flags\" that point specifically to AI generation over human authorship. The claims are appropriate for a product introduction, and the intent is transparently promotional. The low GPTZero score aligns with this assessment; the post reads as competent, if uninspired, human-written marketing content."
+        },
+        {
+          "text": "Had a blast speaking at Major League Hacking Hackcon last week! I love crazy ideas, so it was awesome to share Hack the North's approach to fostering an ideas culture, and my approach to making it easier to execute on big ideas… wonder what crazy idea we’re pulling off this year 👀\n\nIn the spirit of sharing, here’s the slide deck for anyone interested! https://lnkd.in/gXxwbN9p",
+          "publishedAt": "{'timestamp': 1788290951056, 'date': '2026-09-01T19:29:11.056Z', 'postedAgoShort': '2w', 'postedAgoText': '2 weeks ago • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 7.809948756511512e-05,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 2,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              }
+            ],
+            "completely_generated_prob": 7.809948756511512e-05,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.9999219005124349,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.0016103590043496372,
+                "sentence": "Had a blast speaking at Major League Hacking Hackcon last week!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9983896409956504,
+                  "ai": 0.0016040792155804387,
+                  "paraphrased": 6.279788769198386e-06
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.001148807729278311,
+                "sentence": "I love crazy ideas, so it was awesome to share Hack the North's approach to fostering an ideas culture, and my approach to making it easier to execute on big ideas… wonder what crazy idea we’re pulling off this year 👀",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9988511922707217,
+                  "ai": 0.0011438377108367909,
+                  "paraphrased": 4.970018441520149e-06
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0014387660551286967,
+                "sentence": "In the spirit of sharing, here’s the slide deck for anyone interested!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9985612339448713,
+                  "ai": 0.0014342773211981992,
+                  "paraphrased": 4.488733930497419e-06
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.001358238240140817,
+                "sentence": "https://lnkd.in/gXxwbN9p",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9986417617598592,
+                  "ai": 0.0013534221429554846,
+                  "paraphrased": 4.81609718533249e-06
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.9999219005124349,
+              "ai": 7.809948756511512e-05,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.9999219005124349,
+                "ai": 7.809948756511512e-05,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "Had a blast speaking at Major League Hacking Hackcon last week! I love crazy ideas, so it was awesome to share Hack the North's approach to fostering an ideas culture, and my approach to making it easier to execute on big ideas… wonder what crazy idea we’re pulling off this year 👀\n\nIn the spirit of sharing, here’s the slide deck for anyone interested! https://lnkd.in/gXxwbN9p",
+            "document_id": null
+          },
+          "backboard_report": "This LinkedIn post exhibits several human-like qualities that differentiate it from typical generic AI writing:\n\n*   **Informal & Conversational Tone:** Phrases like \"Had a blast,\" \"I love crazy ideas,\" \"awesome to share,\" and \"pulling off\" contribute to a natural, personal voice. Generic AI often defaults to more formal or neutral language.\n*   **Use of Emoji:** The \"👀\" emoji is a common human social media convention used to convey anticipation or draw attention, which is rarely spontaneously generated by generic AI seeking to be neutral.\n*   **Rhetorical Question & Anticipation:** \"wonder what crazy idea we’re pulling off this year 👀\" is a human-like way to build engagement and hint at future plans, demonstrating a nuanced understanding of social interaction beyond mere information dissemination.\n*   **Personal Anecdotes:** The post focuses on personal experiences (\"I love crazy ideas,\" \"my approach\") and direct reporting of participation (\"speaking at Major League Hacking Hackcon\"), which are hallmarks of human authorship.\n\nThe claims within the post (e.g., speaking at an event, sharing specific content) are personal reports and an offer of a resource (the slide deck link), which are typical for a LinkedIn update and not indicative of unsupported factual claims or manipulation in a negative sense."
+        }
+      ],
+      "profile": {
+        "name": "Unknown",
+        "headline": "",
+        "about": "",
+        "profileUrl": "https://www.linkedin.com/in/alex-aumais/",
+        "avatarUrl": ""
+      }
+    }
+  ]
+}

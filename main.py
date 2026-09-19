@@ -15,6 +15,15 @@ load_dotenv(override=True)
 
 GPTZERO_URL = "https://api.gptzero.me/v2/predict/text"
 BACKBOARD_URL = "https://app.backboard.io/api/threads/messages"
+BACKBOARD_LLM_PROVIDER = os.getenv("BACKBOARD_LLM_PROVIDER", "google")
+BACKBOARD_MODEL_NAME = os.getenv("BACKBOARD_MODEL_NAME", "gemini-2.5-flash")
+REPORT_FILE = Path("analysis-cache.json")
+BADGE_APP_FILE = Path("badge-app/main.lua")
+OSCAR_URL = "https://www.linkedin.com/in/oscar-ryley/"
+
+
+class BackboardBillingError(RuntimeError):
+    """Raised when Backboard cannot run chat because the account lacks credits."""
 
 
 def _request_error(response: requests.Response, service: str) -> RuntimeError:
@@ -34,7 +43,8 @@ def _validate_linkedin_url(url: str) -> str:
         raise ValueError(f"Not a LinkedIn profile URL: {url}")
     if not parsed.path.rstrip("/").startswith("/in/"):
         raise ValueError(f"Expected a LinkedIn /in/ profile URL: {url}")
-    return url
+    username = parsed.path.rstrip("/").removeprefix("/in/")
+    return f"https://www.linkedin.com/in/{username}/"
 
 
 def _normalise_post(post: dict[str, Any]) -> dict[str, Any]:
@@ -80,7 +90,7 @@ def analyze_text_for_slop(text: str) -> dict[str, Any]:
     document = response.json()["documents"][0]
     return {
         "ai_probability": document.get("completely_generated_prob"),
-        "classification": document.get("class"),
+        "classification": document.get("class") or document.get("predicted_class"),
         "gptzero": document,
     }
 
@@ -98,7 +108,12 @@ def investigate_with_backboard(text: str, ai_probability: float) -> str:
     response = requests.post(
         BACKBOARD_URL,
         headers={"X-API-Key": api_key, "Content-Type": "application/json"},
-        json={"content": prompt, "stream": False},
+        json={
+            "content": prompt,
+            "llm_provider": BACKBOARD_LLM_PROVIDER,
+            "model_name": BACKBOARD_MODEL_NAME,
+            "stream": False,
+        },
         timeout=90,
     )
     if not response.ok:
@@ -107,7 +122,11 @@ def investigate_with_backboard(text: str, ai_probability: float) -> str:
     content = result.get("content", "")
     lowered = content.casefold()
     if any(marker in lowered for marker in ("add credits", "billing page", "free credit is reserved")):
-        raise RuntimeError("Backboard returned an account billing/credit error; no report was saved")
+        raise BackboardBillingError(
+            "Backboard cannot run chat with this account's current credits. "
+            "Add chat credits or enable a paid Backboard plan, then rerun; "
+            "the Apify scrape and GPTZero results were not saved as a complete report."
+        )
     if not content.strip():
         raise RuntimeError("Backboard returned an empty investigation report")
     return content
@@ -127,10 +146,129 @@ def load_badge_contacts(path: str) -> list[str]:
         if isinstance(row, str):
             candidate = row
         else:
-            candidate = row.get("linkedin_url") or row.get("linkedin") or row.get("profile_url")
+            candidate = (
+                row.get("LinkedIn link")
+                or row.get("linkedin_url")
+                or row.get("profile_url")
+                or row.get("LinkedIn")
+                or row.get("linkedin")
+            )
         if candidate:
+            if not str(candidate).startswith(("http://", "https://")):
+                candidate = f"https://www.linkedin.com/in/{str(candidate).strip('/')}/"
             urls.append(_validate_linkedin_url(candidate))
     return list(dict.fromkeys(urls))
+
+
+def load_badge_contact_records(path: str) -> list[dict[str, str]]:
+    file_path = Path(path)
+    if file_path.suffix.lower() != ".csv":
+        raise ValueError("--contacts-file must be the Hack the North CSV export")
+    with file_path.open(newline="", encoding="utf-8-sig") as file:
+        rows = list(csv.DictReader(file))
+    records = []
+    for row in rows:
+        candidate = row.get("LinkedIn link") or row.get("LinkedIn")
+        if not candidate:
+            continue
+        if not str(candidate).startswith(("http://", "https://")):
+            candidate = f"https://www.linkedin.com/in/{str(candidate).strip('/')}/"
+        records.append({
+            "name": row.get("Name") or candidate,
+            "profile_url": _validate_linkedin_url(candidate),
+        })
+    return records
+
+
+def _load_report_cache() -> dict[str, dict[str, Any]]:
+    if not REPORT_FILE.exists():
+        return {}
+    data = json.loads(REPORT_FILE.read_text(encoding="utf-8"))
+    reports = data.get("reports", data) if isinstance(data, dict) else {}
+    normalized: dict[str, dict[str, Any]] = {}
+    for key, report in reports.items():
+        if not isinstance(report, dict):
+            continue
+        posts = report.get("posts", [])
+        if any("A realistic mock post from" in str(post.get("text", "")) for post in posts):
+            continue
+        canonical = _validate_linkedin_url(str(report.get("profile_url") or key))
+        for post in posts:
+            if not post.get("classification"):
+                post["classification"] = (post.get("gptzero") or {}).get("predicted_class")
+        report["profile_url"] = canonical
+        normalized[canonical] = report
+    return normalized
+
+
+def _save_report_cache(reports: dict[str, dict[str, Any]]) -> None:
+    REPORT_FILE.write_text(
+        json.dumps({"version": 1, "reports": reports}, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+
+def _lua_value(value: Any) -> str:
+    if isinstance(value, str):
+        escaped = (
+            value.replace("\\", "\\\\")
+            .replace('"', '\\"')
+            .replace("\n", "\\n")
+            .replace("\r", "\\r")
+            .replace("\t", "\\t")
+        )
+        return '"' + escaped + '"'
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    if value is None:
+        return "nil"
+    if isinstance(value, (int, float)):
+        return repr(value)
+    if isinstance(value, list):
+        return "{" + ",".join(_lua_value(item) for item in value) + "}"
+    if isinstance(value, dict):
+        return "{" + ",".join(f"{key}={_lua_value(item)}" for key, item in value.items()) + "}"
+    raise TypeError(f"Cannot encode {type(value).__name__} as Lua")
+
+
+def _badge_clip(value: Any, limit: int) -> str:
+    text = str(value or "").strip()
+    return text if len(text) <= limit else text[:limit - 3].rstrip() + "..."
+
+
+def _badge_profile(name: str, profile_url: str, report: dict[str, Any]) -> dict[str, Any]:
+    posts = report.get("posts", [])
+    probabilities = [post.get("ai_probability") or 0.0 for post in posts]
+    classes = [post.get("classification") or "unknown" for post in posts]
+    classification = max(set(classes), key=classes.count) if classes else "unknown"
+    return {
+        "name": name,
+        "linkedin": profile_url.removeprefix("https://www.").removeprefix("http://www."),
+        "posts": len(posts),
+        "average": round(sum(probabilities) / len(probabilities), 4) if probabilities else 0.0,
+        "classification": classification,
+        "posts_data": [
+            {
+                "text": _badge_clip(post.get("text"), 100),
+                "probability": post.get("ai_probability") or 0.0,
+                "class": post.get("classification") or "unknown",
+                "report": _badge_clip(post.get("backboard_report"), 360),
+            }
+            for post in posts
+        ],
+    }
+
+
+def _update_badge_app(records: list[dict[str, str]], reports: dict[str, dict[str, Any]]) -> None:
+    ordered = [{"name": "Oscar Ryley", "profile_url": OSCAR_URL}]
+    ordered.extend(record for record in records if record["profile_url"].rstrip("/") != OSCAR_URL.rstrip("/"))
+    profiles = [_badge_profile(record["name"], record["profile_url"], reports[record["profile_url"]]) for record in ordered if record["profile_url"] in reports]
+    source = BADGE_APP_FILE.read_text(encoding="utf-8").replace("\r\n", "\n")
+    start = source.find("local profiles = {")
+    mode_start = source.find("local mode", start)
+    if start < 0 or mode_start < 0:
+        raise RuntimeError(f"Could not find the profiles table in {BADGE_APP_FILE}")
+    BADGE_APP_FILE.write_text(source[:start] + "local profiles = " + _lua_value(profiles) + "\n\n" + source[mode_start:], encoding="utf-8")
 
 
 def analyze_profile(profile_url: str, posts_file: str | None = None) -> dict[str, Any]:
@@ -159,13 +297,35 @@ def main() -> None:
     source.add_argument("--profile-url", help="LinkedIn /in/ profile URL")
     source.add_argument("--contacts-file", help="Badge contact export in JSON or CSV format")
     parser.add_argument("--posts-file", help="Local JSON posts fixture/export for one profile")
+    parser.add_argument("--output-file", help="Write the final JSON report to this file")
     args = parser.parse_args()
 
-    profiles = [args.profile_url] if args.profile_url else load_badge_contacts(args.contacts_file)
-    if not profiles:
+    cache = _load_report_cache()
+    if args.profile_url:
+        records = [{"name": "Oscar Ryley", "profile_url": _validate_linkedin_url(args.profile_url)}]
+    else:
+        records = load_badge_contact_records(args.contacts_file)
+        if not any(record["profile_url"].rstrip("/") == OSCAR_URL.rstrip("/") for record in records):
+            records.insert(0, {"name": "Oscar Ryley", "profile_url": OSCAR_URL})
+    if not records:
         raise ValueError("No LinkedIn profile URLs found in the contacts file")
-    reports = [analyze_profile(profile, args.posts_file if args.profile_url else None) for profile in profiles]
-    print(json.dumps(reports[0] if args.profile_url else {"contacts": reports}, indent=2))
+
+    reports = []
+    for record in records:
+        profile_url = record["profile_url"]
+        if profile_url not in cache:
+            cache[profile_url] = analyze_profile(profile_url, args.posts_file if args.profile_url else None)
+        reports.append(cache[profile_url])
+
+    _save_report_cache(cache)
+    _update_badge_app(records, cache)
+    report = reports[0] if args.profile_url else {"contacts": reports}
+    formatted = json.dumps(report, indent=2, ensure_ascii=False)
+    if args.output_file:
+        Path(args.output_file).write_text(formatted + "\n", encoding="utf-8")
+        print(f"Report written to {args.output_file}")
+    else:
+        print(formatted)
 
 
 if __name__ == "__main__":

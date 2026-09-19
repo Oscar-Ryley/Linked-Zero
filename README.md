@@ -72,6 +72,10 @@ in `analysis-cache.json`; profiles already present there skip GPTZero and Backbo
 on later runs. GPTZero is an indicator, not proof that a person used AI, and the
 output should be treated as a review aid rather than a definitive judgment.
 
+If Apify succeeds but the command reports a Backboard credit/billing error, no
+incomplete report is cached or embedded. Add Backboard chat credits or enable the
+required plan, then rerun the same command.
+
 ## Reference
 
 This project is informed by the Financial Times article [AI is creating ghostwriting
