@@ -1,1 +1,1 @@
-"""External data services used by the LinkedIn slop analyzer."""
+"""External data services used by Linked-Zero."""

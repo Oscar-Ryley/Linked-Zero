@@ -1586,6 +1586,2074 @@
         "profileUrl": "https://www.linkedin.com/in/alex-aumais/",
         "avatarUrl": ""
       }
+    },
+    {
+      "profile_url": "https://www.linkedin.com/in/alex-cui-caltech/",
+      "posts_analyzed": 3,
+      "posts": [
+        {
+          "text": "Edward Tian built GPTZero, one of the most widely used AI detection tools. He shared his 4 principles for using AI in writing with me. \n\nGPTZero was acquired by Superhuman in June, and one of Edward and his team's first contributions has been to suggest AI writing principles for the larger company. He talked me through them in my latest newsletter this week. \n\n1. 𝐀𝐈 𝐢𝐬 𝐭𝐡𝐞 𝐟𝐢𝐫𝐬𝐭 𝐝𝐫𝐚𝐟𝐭, 𝐧𝐨𝐭 𝐭𝐡𝐞 𝐟𝐢𝐧𝐚𝐥 𝐨𝐧𝐞.\n\n2. 𝐄𝐝𝐢𝐭𝐢𝐧𝐠 𝐢𝐬 𝐭𝐡𝐢𝐧𝐤𝐢𝐧𝐠.\nEdward says he learned the importance of editing from his creative writing professor at Princeton, John McPhee. \n\n3. 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐨𝐯𝐞𝐫 𝐪𝐮𝐚𝐧𝐭𝐢𝐭𝐲.\nThe reader deserves more effort than the time it takes them to read what you sent.\n\n4. 𝐋𝐨𝐧𝐠𝐞𝐫 𝐢𝐬 𝐧𝐨𝐭 𝐛𝐞𝐭𝐭𝐞𝐫.\nEdward borrowed this from the classic inverted pyramid in journalism. \"Prioritize and highlight the most important information, because AI tends to generate more and more, and the critical points get lost in the noise,\" he says. \n\nHis take on where we are now: \"Whether it's a year ago or now, these tools still aren't fully producing great work, great summaries, great notes on their own. You still need good editorial and writing judgment.\"\n\nI've seen a lot of AI writing and communications policies, and these four succinct points capture a lot. Is there anything missing? \n\nLink to the full interview in the comments.",
+          "publishedAt": "{'timestamp': 1789749092333, 'date': '2026-09-18T16:31:32.333Z', 'postedAgoShort': '1d', 'postedAgoText': '1 day ago • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 7.86289832662438e-06,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 2,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 4,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 5,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 6,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 7,
+                "num_sentences": 1,
+                "completely_generated_prob": 0
+              },
+              {
+                "start_sentence_index": 8,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 9,
+                "num_sentences": 1,
+                "completely_generated_prob": 0
+              },
+              {
+                "start_sentence_index": 10,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 12,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 14,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 16,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              }
+            ],
+            "completely_generated_prob": 7.86289832662438e-06,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.9999921371016735,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [
+              {
+                "start": 595,
+                "end": 639,
+                "text": "3. 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐨𝐯𝐞𝐫 𝐪𝐮𝐚𝐧𝐭𝐢𝐭𝐲.",
+                "reason": "header"
+              },
+              {
+                "start": 724,
+                "end": 765,
+                "text": "4. 𝐋𝐨𝐧𝐠𝐞𝐫 𝐢𝐬 𝐧𝐨𝐭 𝐛𝐞𝐭𝐭𝐞𝐫.",
+                "reason": "header"
+              }
+            ],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.00010011664390663778,
+                "sentence": "Edward Tian built GPTZero, one of the most widely used AI detection tools.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998998833560934,
+                  "ai": 5.084041647124277e-05,
+                  "paraphrased": 4.9276227435395014e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 9.982878648796489e-05,
+                "sentence": "He shared his 4 principles for using AI in writing with me.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.999900171213512,
+                  "ai": 4.898835295106386e-05,
+                  "paraphrased": 5.084043353690102e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 6.252328442719951e-05,
+                "sentence": "GPTZero was acquired by Superhuman in June, and one of Edward and his team's first contributions has been to suggest AI writing principles for the larger company.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9999374767155728,
+                  "ai": 1.9035534286741128e-05,
+                  "paraphrased": 4.348775014045838e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 7.07429680605428e-05,
+                "sentence": "He talked me through them in my latest newsletter this week.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9999292570319395,
+                  "ai": 2.5168572906102143e-05,
+                  "paraphrased": 4.557439515444066e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 8.19249618874537e-05,
+                "sentence": "1. 𝐀𝐈 𝐢𝐬 𝐭𝐡𝐞 𝐟𝐢𝐫𝐬𝐭 𝐝𝐫𝐚𝐟𝐭, 𝐧𝐨𝐭 𝐭𝐡𝐞 𝐟𝐢𝐧𝐚𝐥 𝐨𝐧𝐞.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9999180750381126,
+                  "ai": 3.453561608410112e-05,
+                  "paraphrased": 4.738934580335259e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 7.581023289560595e-05,
+                "sentence": "2. 𝐄𝐝𝐢𝐭𝐢𝐧𝐠 𝐢𝐬 𝐭𝐡𝐢𝐧𝐤𝐢𝐧𝐠.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9999241897671044,
+                  "ai": 3.535482052692027e-05,
+                  "paraphrased": 4.0455412368685685e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 5.558003389826833e-05,
+                "sentence": "Edward says he learned the importance of editing from his creative writing professor at Princeton, John McPhee.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9999444199661017,
+                  "ai": 1.6060975760281035e-05,
+                  "paraphrased": 3.951905813798729e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0,
+                "sentence": "3. 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐨𝐯𝐞𝐫 𝐪𝐮𝐚𝐧𝐭𝐢𝐭𝐲.",
+                "perplexity": 0,
+                "should_mask": true,
+                "masking_reason": "header",
+                "class_probabilities": {
+                  "human": 1,
+                  "ai": 0,
+                  "paraphrased": 0
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00015043404831508665,
+                "sentence": "The reader deserves more effort than the time it takes them to read what you sent.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.999849565951685,
+                  "ai": 0.00010720416408000617,
+                  "paraphrased": 4.3229884235080476e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0,
+                "sentence": "4. 𝐋𝐨𝐧𝐠𝐞𝐫 𝐢𝐬 𝐧𝐨𝐭 𝐛𝐞𝐭𝐭𝐞𝐫.",
+                "perplexity": 0,
+                "should_mask": true,
+                "masking_reason": "header",
+                "class_probabilities": {
+                  "human": 1,
+                  "ai": 0,
+                  "paraphrased": 0
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00013352932666124906,
+                "sentence": "Edward borrowed this from the classic inverted pyramid in journalism.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998664706733388,
+                  "ai": 8.614242858931331e-05,
+                  "paraphrased": 4.738689807193575e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 8.832883441740161e-05,
+                "sentence": "\"Prioritize and highlight the most important information, because AI tends to generate more and more, and the critical points get lost in the noise,\" he says.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9999116711655825,
+                  "ai": 5.084101603047597e-05,
+                  "paraphrased": 3.748781838692565e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 9.254063162871803e-05,
+                "sentence": "His take on where we are now: \"Whether it's a year ago or now, these tools still aren't fully producing great work, great summaries, great notes on their own.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9999074593683713,
+                  "ai": 5.2557212277103635e-05,
+                  "paraphrased": 3.9983419351614394e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 9.964022506518246e-05,
+                "sentence": "You still need good editorial and writing judgment.\"",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9999003597749349,
+                  "ai": 4.247878030164675e-05,
+                  "paraphrased": 5.7161444763535704e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 7.435955236733709e-05,
+                "sentence": "I've seen a lot of AI writing and communications policies, and these four succinct points capture a lot.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9999256404476327,
+                  "ai": 3.1630061852850316e-05,
+                  "paraphrased": 4.272949051448678e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0001000736181986522,
+                "sentence": "Is there anything missing?",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998999263818014,
+                  "ai": 5.529464740998082e-05,
+                  "paraphrased": 4.477897078867138e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00010821056252548365,
+                "sentence": "Link to the full interview in the comments.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998917894374745,
+                  "ai": 6.695858093489966e-05,
+                  "paraphrased": 4.1251981590583984e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.9999921371016735,
+              "ai": 7.86289832662438e-06,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.9999921371016735,
+                "ai": 7.86289832662438e-06,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "Edward Tian built GPTZero, one of the most widely used AI detection tools. He shared his 4 principles for using AI in writing with me. \n\nGPTZero was acquired by Superhuman in June, and one of Edward and his team's first contributions has been to suggest AI writing principles for the larger company. He talked me through them in my latest newsletter this week. \n\n1. 𝐀𝐈 𝐢𝐬 𝐭𝐡𝐞 𝐟𝐢𝐫𝐬𝐭 𝐝𝐫𝐚𝐟𝐭, 𝐧𝐨𝐭 𝐭𝐡𝐞 𝐟𝐢𝐧𝐚𝐥 𝐨𝐧𝐞.\n\n2. 𝐄𝐝𝐢𝐭𝐢𝐧𝐠 𝐢𝐬 𝐭𝐡𝐢𝐧𝐤𝐢𝐧𝐠.\nEdward says he learned the importance of editing from his creative writing professor at Princeton, John McPhee. \n\n3. 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐨𝐯𝐞𝐫 𝐪𝐮𝐚𝐧𝐭𝐢𝐭𝐲.\nThe reader deserves more effort than the time it takes them to read what you sent.\n\n4. 𝐋𝐨𝐧𝐠𝐞𝐫 𝐢𝐬 𝐧𝐨𝐭 𝐛𝐞𝐭𝐭𝐞𝐫.\nEdward borrowed this from the classic inverted pyramid in journalism. \"Prioritize and highlight the most important information, because AI tends to generate more and more, and the critical points get lost in the noise,\" he says. \n\nHis take on where we are now: \"Whether it's a year ago or now, these tools still aren't fully producing great work, great summaries, great notes on their own. You still need good editorial and writing judgment.\"\n\nI've seen a lot of AI writing and communications policies, and these four succinct points capture a lot. Is there anything missing? \n\nLink to the full interview in the comments.",
+            "document_id": null
+          },
+          "backboard_report": "This LinkedIn post contains a significant **unsupported factual claim** and potential **manipulation**.\n\nThe claim \"GPTZero was acquired by Superhuman in June\" appears to be false. As of September 2026, there is no public record or announcement of GPTZero being acquired by Superhuman, nor is Edward Tian listed as having left GPTZero or joined Superhuman. This fabricated acquisition undermines the entire premise that Edward Tian and his team developed these principles as \"first contributions\" for a \"larger company\" post-acquisition.\n\nWhile the writing style itself doesn't show strong signs of generic AI generation (it's direct, uses common LinkedIn engagement tactics like bolding and a concluding question), the inclusion of a major, fabricated event could be seen as a manipulative tactic to lend false authority or importance to the shared principles and the poster's narrative of interviewing Edward Tian."
+        },
+        {
+          "text": "It was bittersweet when I got this message from my team\n\n100s of mints, tote bags, bottle-openers, stickers - gone \n\nHowever, it was a good start to our time at IJCAI - one of the top AI conferences in the world. We were invited to showcase our hallucination detection, which we used to ensure all of IJCAI's accepted papers were free of AI slop\n\nHere's the sweet part. 75 researchers and professors signed up to collaborate with us on their next paper or asked us to scan the submissions of their next conference. And 0 hallucinations were detected in IJCAI's published conference proceedings\n\nFor the next conference, watch out - we're stocking up on swag big time. Come and find us in Budapest, Hungary at EMNLP 2026 on October 26-30, where we'll share some of the latest work we've been doing in hallucination detection!",
+          "publishedAt": "{'timestamp': 1788467359243, 'date': '2026-09-03T20:29:19.243Z', 'postedAgoShort': '2w', 'postedAgoText': '2 weeks ago • Edited • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 1.3687977589947439e-05,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 1,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 2,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 4,
+                "num_sentences": 3,
+                "completely_generated_prob": 0.00408719312638748
+              },
+              {
+                "start_sentence_index": 7,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              }
+            ],
+            "completely_generated_prob": 1.3687977589947439e-05,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.9999722870149615,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.0001858739749218536,
+                "sentence": "It was bittersweet when I got this message from my team",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998141260250781,
+                  "ai": 1.3897805277353805e-05,
+                  "paraphrased": 0.0001719761696444998
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0002336812546699672,
+                "sentence": "100s of mints, tote bags, bottle-openers, stickers - gone",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9997663187453301,
+                  "ai": 1.0048911461275313e-05,
+                  "paraphrased": 0.00022363234320869188
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00019679650268085522,
+                "sentence": "However, it was a good start to our time at IJCAI - one of the top AI conferences in the world.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998032034973191,
+                  "ai": 1.1210784111870264e-05,
+                  "paraphrased": 0.00018558571856898496
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00024232980209508095,
+                "sentence": "We were invited to showcase our hallucination detection, which we used to ensure all of IJCAI's accepted papers were free of AI slop",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.999757670197905,
+                  "ai": 1.3842840815333556e-05,
+                  "paraphrased": 0.0002284869612797474
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00018363870244491166,
+                "sentence": "Here's the sweet part.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9998163612975551,
+                  "ai": 1.5809950178461354e-05,
+                  "paraphrased": 0.00016782875226645032
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0002077775030554167,
+                "sentence": "75 researchers and professors signed up to collaborate with us on their next paper or asked us to scan the submissions of their next conference.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9997922224969445,
+                  "ai": 9.257730790071684e-06,
+                  "paraphrased": 0.00019851977226534502
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0002543004385298385,
+                "sentence": "And 0 hallucinations were detected in IJCAI's published conference proceedings",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9997456995614702,
+                  "ai": 1.485102305390852e-05,
+                  "paraphrased": 0.00023944941547592995
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00020630515331699373,
+                "sentence": "For the next conference, watch out - we're stocking up on swag big time.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.999793694846683,
+                  "ai": 1.70608889194441e-05,
+                  "paraphrased": 0.00018924426439754962
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.00021702163188149767,
+                "sentence": "Come and find us in Budapest, Hungary at EMNLP 2026 on October 26-30, where we'll share some of the latest work we've been doing in hallucination detection!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9997829783681185,
+                  "ai": 2.2912892720133927e-05,
+                  "paraphrased": 0.00019410873916136373
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.9999722870149615,
+              "ai": 2.7712985038378015e-05,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.9999722870149615,
+                "ai": 2.7712985038378015e-05,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "It was bittersweet when I got this message from my team\n\n100s of mints, tote bags, bottle-openers, stickers - gone \n\nHowever, it was a good start to our time at IJCAI - one of the top AI conferences in the world. We were invited to showcase our hallucination detection, which we used to ensure all of IJCAI's accepted papers were free of AI slop\n\nHere's the sweet part. 75 researchers and professors signed up to collaborate with us on their next paper or asked us to scan the submissions of their next conference. And 0 hallucinations were detected in IJCAI's published conference proceedings\n\nFor the next conference, watch out - we're stocking up on swag big time. Come and find us in Budapest, Hungary at EMNLP 2026 on October 26-30, where we'll share some of the latest work we've been doing in hallucination detection!",
+            "document_id": null
+          },
+          "backboard_report": "The post exhibits few signs of generic AI writing; its informal tone (\"AI slop,\" \"watch out\") and human-like phrasing suggest a native speaker or a highly refined AI.\n\nHowever, it contains significant unsupported factual claims and potential manipulation:\n\n1.  **Unsupported Claim/Manipulation:** The assertion \"we used to ensure all of IJCAI's accepted papers were free of AI slop\" is a massive and highly improbable claim. For a vendor to officially audit *all* papers for a top-tier conference like IJCAI would require a major, public announcement from IJCAI itself, which is absent. This strongly suggests an overstatement of their role and partnership.\n2.  **Unsupported Claim/Manipulation:** The follow-up \"And 0 hallucinations were detected in IJCAI's published conference proceedings\" is an extraordinary claim. Given the complexity of AI-generated content and the broad definition of \"AI slop,\" finding *zero* hallucinations across *all* papers (as implied by the previous statement) is highly suspect and likely indicative of a very narrow definition of \"hallucination,\" limited scope, or significant exaggeration designed to inflate the tool's effectiveness and the company's prestige by association with IJCAI."
+        },
+        {
+          "text": "Superhuman users have been asking us for a notetaker for a long time. Meeting notes are one of the clearest, most valuable places where AI can help, and it’s a category I’ve spent a lot of time with.\n\nThat’s part of what led us to Fathom. And today, I’m excited to share that Fathom.ai is now part of Superhuman.\n\nRichard White and the Fathom team have built an excellent product and a team with deep expertise in this category. What’s especially interesting to me is where meeting notes can go next. The value isn’t only in capturing and summarizing a conversation. It’s in making what was discussed, decided, and committed to useful in the work that follows.\n\nThat fits naturally with what we’re building at Superhuman. Fathom adds meeting context to the context already available across email, calendar, docs, and other places people work.\n\nWe’re already working together on what comes next, and I believe we have an opportunity to set a new bar for the category. I’m very excited to welcome the Fathom team to Superhuman.",
+          "publishedAt": "{'timestamp': 1789424223180, 'date': '2026-09-14T22:17:03.180Z', 'postedAgoShort': '5d', 'postedAgoText': '5 days ago • Edited • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 0.4969609177258295,
+          "classification": "mixed",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.8254776901813464
+              },
+              {
+                "start_sentence_index": 2,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.8254776901813464
+              },
+              {
+                "start_sentence_index": 4,
+                "num_sentences": 4,
+                "completely_generated_prob": 0.8708627247549962
+              },
+              {
+                "start_sentence_index": 8,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.8254776901813464
+              },
+              {
+                "start_sentence_index": 10,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.8254776901813464
+              }
+            ],
+            "completely_generated_prob": 0.4969609177258295,
+            "average_generated_prob": 1,
+            "predicted_class": "mixed",
+            "confidence_score": 0.993921835451659,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.9929842852645049,
+                "sentence": "Superhuman users have been asking us for a notetaker for a long time.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.007015714735495213,
+                  "ai": 0.019608921316664873,
+                  "paraphrased": 0.97337536394784
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.994259337899965,
+                "sentence": "Meeting notes are one of the clearest, most valuable places where AI can help, and it’s a category I’ve spent a lot of time with.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.005740662100035081,
+                  "ai": 0.01935414595589587,
+                  "paraphrased": 0.9749051919440691
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.9873136113502041,
+                "sentence": "That’s part of what led us to Fathom.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.012686388649795875,
+                  "ai": 0.01337335174308481,
+                  "paraphrased": 0.9739402596071193
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.9776682233502174,
+                "sentence": "And today, I’m excited to share that Fathom.ai is now part of Superhuman.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0223317766497825,
+                  "ai": 0.012201005808391268,
+                  "paraphrased": 0.9654672175418262
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.9791289491886567,
+                "sentence": "Richard White and the Fathom team have built an excellent product and a team with deep expertise in this category.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.020871050811343272,
+                  "ai": 0.015800520895425385,
+                  "paraphrased": 0.9633284282932313
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.9931142584769068,
+                "sentence": "What’s especially interesting to me is where meeting notes can go next.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.006885741523093233,
+                  "ai": 0.034968683762973636,
+                  "paraphrased": 0.9581455747139331
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.9967612504180535,
+                "sentence": "The value isn’t only in capturing and summarizing a conversation.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0032387495819464515,
+                  "ai": 0.02577502565758285,
+                  "paraphrased": 0.9709862247604707
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.9989810560409352,
+                "sentence": "It’s in making what was discussed, decided, and committed to useful in the work that follows.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0010189439590647968,
+                  "ai": 0.020546140058344077,
+                  "paraphrased": 0.9784349159825911
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.9965647214885909,
+                "sentence": "That fits naturally with what we’re building at Superhuman.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0034352785114090847,
+                  "ai": 0.021469160709475264,
+                  "paraphrased": 0.9750955607791156
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.9967807944239067,
+                "sentence": "Fathom adds meeting context to the context already available across email, calendar, docs, and other places people work.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.003219205576093361,
+                  "ai": 0.022182648469504716,
+                  "paraphrased": 0.974598145954402
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.992584395195256,
+                "sentence": "We’re already working together on what comes next, and I believe we have an opportunity to set a new bar for the category.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.007415604804744101,
+                  "ai": 0.017530427208931998,
+                  "paraphrased": 0.9750539679863239
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              },
+              {
+                "generated_prob": 0.9900789616245186,
+                "sentence": "I’m very excited to welcome the Fathom team to Superhuman.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.00992103837548139,
+                  "ai": 0.011154522953115061,
+                  "paraphrased": 0.9789244386714036
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": "polished"
+              }
+            ],
+            "class_probabilities": {
+              "human": 0,
+              "ai": 0.006078164548340998,
+              "mixed": 0.993921835451659
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "ai": 0.006078164548340998,
+                "mixed": 0.993921835451659,
+                "human": 0
+              }
+            },
+            "subclass": {
+              "mixed": {
+                "predicted_class": "polished",
+                "result_message": "We are highly confident that this text was originally written by a human and improved using AI",
+                "confidence_score": 1,
+                "confidence_category": "high",
+                "class_probabilities": {
+                  "concatenated": 0,
+                  "polished": 1
+                },
+                "confidence_scores_raw": {
+                  "identity": {
+                    "polished": 1,
+                    "concatenated": 0
+                  }
+                },
+                "confidence_thresholds_raw": {
+                  "identity": {
+                    "polished": {
+                      "reject": 0.33,
+                      "low": 0.6,
+                      "medium": 0.8
+                    },
+                    "concatenated": {
+                      "reject": 0.33,
+                      "low": 0.6,
+                      "medium": 0.8
+                    }
+                  }
+                }
+              }
+            },
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text may include parts written by AI.",
+            "result_sub_message": null,
+            "document_classification": "MIXED",
+            "inputText": "Superhuman users have been asking us for a notetaker for a long time. Meeting notes are one of the clearest, most valuable places where AI can help, and it’s a category I’ve spent a lot of time with.\n\nThat’s part of what led us to Fathom. And today, I’m excited to share that Fathom.ai is now part of Superhuman.\n\nRichard White and the Fathom team have built an excellent product and a team with deep expertise in this category. What’s especially interesting to me is where meeting notes can go next. The value isn’t only in capturing and summarizing a conversation. It’s in making what was discussed, decided, and committed to useful in the work that follows.\n\nThat fits naturally with what we’re building at Superhuman. Fathom adds meeting context to the context already available across email, calendar, docs, and other places people work.\n\nWe’re already working together on what comes next, and I believe we have an opportunity to set a new bar for the category. I’m very excited to welcome the Fathom team to Superhuman.",
+            "document_id": null
+          },
+          "backboard_report": "As a writing-quality investigator, here's an analysis of the LinkedIn post, keeping in mind that a detector score is not proof:\n\n**Signs of Generic AI Writing:**\n\n*   **Reliance on Common Business Jargon and Clichés:** Phrases like \"clearest, most valuable places where AI can help,\" \"excellent product,\" \"deep expertise,\" \"fits naturally,\" and \"set a new bar for the category\" are frequently found in corporate communications and are easily generated by AI models trained on such content.\n*   **Vague Positive Adjectives:** While positive, descriptors like \"excellent\" and \"deep\" are generic and lack specific detail or unique phrasing that might characterize human-authored prose.\n*   **Predictable Narrative Structure:** The post follows a common announcement template: identify a user need, introduce the solution (acquisition), praise the acquired entity, explain the synergy, and express future optimism. This structured approach is typical of AI-generated content aiming for clear, conventional communication.\n*   **Consistent, Unvarying Tone:** The tone is uniformly enthusiastic and professional, without subtle shifts or unique stylistic quirks that often appear in human writing.\n\n**Unsupported Factual Claims / Subjective Statements Presented as Fact:**\n\n*   **\"Superhuman users have been asking us for a notetaker for a long time.\"** This is an internal claim about user demand, difficult for an external party to verify precisely. \"A long time\" is vague.\n*   **\"Meeting notes are one of the clearest, most valuable places where AI can help...\"** This is a subjective opinion presented as a general truth.\n*   **\"...built an excellent product and a team with deep expertise in this category.\"** \"Excellent\" is subjective praise. \"Deep expertise\" is an assertion of quality that is not supported by external evidence within the post itself.\n*   **\"...we have an opportunity to set a new bar for the category.\"** This is an aspirational statement about future impact, not a current factual claim.\n\n**Manipulation:**\n\n*   There are **no concrete signs of manipulation** beyond standard marketing and acquisition announcement rhetoric. The post aims to present the acquisition in a highly positive and forward-looking light, which is expected. The vagueness and subjective claims are common persuasive techniques in corporate communications, rather than deceptive manipulation."
+        }
+      ],
+      "profile": {
+        "name": "Unknown",
+        "headline": "",
+        "about": "",
+        "profileUrl": "https://www.linkedin.com/in/alex-cui-caltech/",
+        "avatarUrl": ""
+      }
+    },
+    {
+      "profile_url": "https://www.linkedin.com/in/allison-salas-irus/",
+      "posts_analyzed": 3,
+      "posts": [
+        {
+          "text": "Today is my first day at GPTZero. Again.\n\nA little over a year ago, Top Funnel Talent was working with GPTZero and the conversation came up about an embedded contractor. I didn't wait to be asked, it had to be me 🙈 \n\nI just admired what Edward Tian and Alex Cui were building so much and wanted to be part of the journey, even if just for a few months.\n\nA year later, through hard work and learnings, I got the offer to go full time 🥳 \n\n6 years ago, when COVID took my new grad dream job, Mom said better things were coming, I didn't believe it then but she was so right!\n\nThank you Anthony Escamilla for opening doors for me, and to the entire GPTZero team for never making me feel like an outsider. Today I'm just making it official!\n\nPS: I took 14 of these rockstars through the hiring process this past year.",
+          "publishedAt": "{'timestamp': 1775068914977, 'date': '2026-04-01T18:41:54.977Z', 'postedAgoShort': '5mo', 'postedAgoText': '5 months ago • Edited • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 3.915752968910248e-05,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 2,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 4,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 5,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 6,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 7,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              },
+              {
+                "start_sentence_index": 9,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              }
+            ],
+            "completely_generated_prob": 3.915752968910248e-05,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.9999608424703109,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.000732815972382526,
+                "sentence": "Today is my first day at GPTZero.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9992671840276175,
+                  "ai": 0.0006005136085938597,
+                  "paraphrased": 0.00013230236378866629
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0003234461808799328,
+                "sentence": "Again.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.99967655381912,
+                  "ai": 0.000251905577266584,
+                  "paraphrased": 7.154060361334877e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0003790006246200359,
+                "sentence": "A little over a year ago, Top Funnel Talent was working with GPTZero and the conversation came up about an embedded contractor.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.99962099937538,
+                  "ai": 0.00026423800412243734,
+                  "paraphrased": 0.00011476262049759857
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0007906817819191603,
+                "sentence": "I didn't wait to be asked, it had to be me 🙈",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9992093182180808,
+                  "ai": 0.0006884523548519965,
+                  "paraphrased": 0.00010222942706716374
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0005780032218351704,
+                "sentence": "I just admired what Edward Tian and Alex Cui were building so much and wanted to be part of the journey, even if just for a few months.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9994219967781648,
+                  "ai": 0.0004902008428849856,
+                  "paraphrased": 8.780237895018468e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.000452533922703012,
+                "sentence": "A year later, through hard work and learnings, I got the offer to go full time 🥳",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9995474660772969,
+                  "ai": 0.00034494268834388725,
+                  "paraphrased": 0.00010759123435912474
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0005873975774401383,
+                "sentence": "6 years ago, when COVID took my new grad dream job, Mom said better things were coming, I didn't believe it then but she was so right!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9994126024225599,
+                  "ai": 0.0004911545871033585,
+                  "paraphrased": 9.624299033677976e-05
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0010203344683559958,
+                "sentence": "Thank you Anthony Escamilla for opening doors for me, and to the entire GPTZero team for never making me feel like an outsider.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.998979665531644,
+                  "ai": 0.0009091740777708823,
+                  "paraphrased": 0.00011116039058511354
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0009930435773120138,
+                "sentence": "Today I'm just making it official!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.999006956422688,
+                  "ai": 0.0008842429639309341,
+                  "paraphrased": 0.00010880061338107976
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0005756587982574946,
+                "sentence": "PS: I took 14 of these rockstars through the hiring process this past year.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9994243412017425,
+                  "ai": 0.0004515952370600732,
+                  "paraphrased": 0.00012406356119742137
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.9999608424703109,
+              "ai": 3.915752968910248e-05,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.9999608424703109,
+                "ai": 3.915752968910248e-05,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "Today is my first day at GPTZero. Again.\n\nA little over a year ago, Top Funnel Talent was working with GPTZero and the conversation came up about an embedded contractor. I didn't wait to be asked, it had to be me 🙈 \n\nI just admired what Edward Tian and Alex Cui were building so much and wanted to be part of the journey, even if just for a few months.\n\nA year later, through hard work and learnings, I got the offer to go full time 🥳 \n\n6 years ago, when COVID took my new grad dream job, Mom said better things were coming, I didn't believe it then but she was so right!\n\nThank you Anthony Escamilla for opening doors for me, and to the entire GPTZero team for never making me feel like an outsider. Today I'm just making it official!\n\nPS: I took 14 of these rockstars through the hiring process this past year.",
+            "document_id": null
+          },
+          "backboard_report": "This LinkedIn post shows no concrete signs of generic AI writing, unsupported factual claims, or manipulation.\n\n**Concise Explanation:**\nThe post is rich with personal anecdotes (e.g., \"Mom said better things were coming,\" \"COVID took my new grad dream job\"), specific names (Edward Tian, Alex Cui, Anthony Escamilla), and informal, expressive language (e.g., \"🙈\", \"🥳\", \"rockstars\"). These elements are hallmarks of human writing and are highly uncharacteristic of generic AI. All factual claims are either personal experiences or specific details that would be easily verifiable within the poster's professional network, and there's no evidence of manipulation beyond sharing a personal career milestone and expressing gratitude, which is standard for the platform."
+        },
+        {
+          "text": "This week, it became official: GPTZero joined Superhuman to build the #1 AI transparency platform.\n\nI’m incredibly proud of the product we’ve built and even prouder of the team who got us here; thanks to Edward Tian and Alex Cui for trusting me to build this team of rockstars. \n\nExcited to follow our whole team into this new chapter, empowering humans in a world increasingly shaped by AI.",
+          "publishedAt": "{'timestamp': 1786568313399, 'date': '2026-08-12T20:58:33.399Z', 'postedAgoShort': '1mo', 'postedAgoText': '1 month ago • Edited • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 0.00012951431261412603,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 1,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 2,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              }
+            ],
+            "completely_generated_prob": 0.00012951431261412603,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.9998704856873859,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.0008165250566775745,
+                "sentence": "This week, it became official: GPTZero joined Superhuman to build the #1 AI transparency platform.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9991834749433224,
+                  "ai": 0.0005575112959406661,
+                  "paraphrased": 0.0002590137607369084
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0009249183364528366,
+                "sentence": "I’m incredibly proud of the product we’ve built and even prouder of the team who got us here; thanks to Edward Tian and Alex Cui for trusting me to build this team of rockstars.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9990750816635472,
+                  "ai": 0.0007313255240810556,
+                  "paraphrased": 0.00019359281237178096
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.0007484235778143426,
+                "sentence": "Excited to follow our whole team into this new chapter, empowering humans in a world increasingly shaped by AI.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9992515764221857,
+                  "ai": 0.0005668827397376499,
+                  "paraphrased": 0.00018154083807669263
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.9998704856873859,
+              "ai": 0.00012951431261412603,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.9998704856873859,
+                "ai": 0.00012951431261412603,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "This week, it became official: GPTZero joined Superhuman to build the #1 AI transparency platform.\n\nI’m incredibly proud of the product we’ve built and even prouder of the team who got us here; thanks to Edward Tian and Alex Cui for trusting me to build this team of rockstars. \n\nExcited to follow our whole team into this new chapter, empowering humans in a world increasingly shaped by AI.",
+            "document_id": null
+          },
+          "backboard_report": "Despite the 0.0% AI generation probability, the post exhibits several characteristics common in generic, formulaic writing often produced by AI (and humans trained on similar content):\n\n*   **Aspirational Claim:** The assertion of building \"the #1 AI transparency platform\" is a subjective, aspirational goal presented as a definitive statement, rather than an objective, verifiable fact.\n*   **Generic Phrasing:** Phrases like \"team of rockstars,\" \"new chapter,\" and especially the broad, buzzword-heavy mission statement \"empowering humans in a world increasingly shaped by AI\" are common corporate clichés. While frequently used by humans, their lack of unique voice, specific detail, or distinctive style makes them highly replicable by language models trained on professional communications, contributing to a generic feel."
+        },
+        {
+          "text": "We just got some great new hires and are still looking for the best engineers in NYC and Toronto! 🌍",
+          "publishedAt": "{'timestamp': 1767803867896, 'date': '2026-01-07T16:37:47.896Z', 'postedAgoShort': '8mo', 'postedAgoText': '8 months ago • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 0.00899040689318892,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              }
+            ],
+            "completely_generated_prob": 0.00899040689318892,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.9910095931068111,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.03931135889276499,
+                "sentence": "We just got some great new hires and are still looking for the best engineers in NYC and Toronto!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.9606886411072351,
+                  "ai": 0.02243931336011882,
+                  "paraphrased": 0.01687204553264617
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.9910095931068111,
+              "ai": 0.00899040689318892,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.9910095931068111,
+                "ai": 0.00899040689318892,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "We just got some great new hires and are still looking for the best engineers in NYC and Toronto! 🌍",
+            "document_id": null
+          },
+          "backboard_report": "This post shows no concrete signs of generic AI writing. It is remarkably concise and uses natural, direct language (\"We just got some great new hires,\" \"still looking for the best engineers\"). There are no awkward phrases, overly formal or repetitive structures, or generic filler often associated with AI.\n\nRegarding claims: \"We just got some great new hires\" is an internal statement of fact. \"Looking for the best engineers\" is a standard recruitment aspiration, not an unsupported factual claim about external reality. There is no evidence of manipulation beyond standard recruitment marketing to attract top talent. The brevity and directness are hallmarks of human-authored social media recruitment."
+        }
+      ],
+      "profile": {
+        "name": "Unknown",
+        "headline": "",
+        "about": "",
+        "profileUrl": "https://www.linkedin.com/in/allison-salas-irus/",
+        "avatarUrl": ""
+      }
+    },
+    {
+      "profile_url": "https://www.linkedin.com/in/juliusbort/",
+      "posts_analyzed": 3,
+      "posts": [
+        {
+          "text": "Really enjoyed supporting Per Scholas learners during their Amazon visit. Mock interviews like these are a great way to bridge the gap between classroom learning and real-world career preparation 🚀",
+          "publishedAt": "{'timestamp': 1758602489566, 'date': '2025-09-23T04:41:29.566Z', 'postedAgoShort': '11mo', 'postedAgoText': '11 months ago • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 0.5680737174911158,
+          "classification": "ai",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.8254776901813464
+              }
+            ],
+            "completely_generated_prob": 0.5680737174911158,
+            "average_generated_prob": 1,
+            "predicted_class": "ai",
+            "confidence_score": 0.5680737174911158,
+            "confidence_category": "low",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.9477461916823697,
+                "sentence": "Really enjoyed supporting Per Scholas learners during their Amazon visit.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.05225380831763025,
+                  "ai": 0.935524447457281,
+                  "paraphrased": 0.012221744225088742
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.8886170703108243,
+                "sentence": "Mock interviews like these are a great way to bridge the gap between classroom learning and real-world career preparation 🚀",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.1113829296891757,
+                  "ai": 0.8765224683932031,
+                  "paraphrased": 0.012094601917621147
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.43192628250888415,
+              "ai": 0.5680737174911158,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "ai": 0.5680737174911158,
+                "mixed": 0,
+                "human": 0.43192628250888415
+              }
+            },
+            "subclass": {
+              "ai": {
+                "predicted_class": "pure_ai",
+                "result_message": "",
+                "confidence_score": 1,
+                "confidence_category": "high",
+                "class_probabilities": {
+                  "pure_ai": 1,
+                  "ai_paraphrased": 0
+                },
+                "confidence_scores_raw": {
+                  "identity": {
+                    "pure_ai": 1,
+                    "ai_paraphrased": 0
+                  }
+                },
+                "confidence_thresholds_raw": {
+                  "identity": {
+                    "ai_paraphrased": {
+                      "reject": 0.33,
+                      "low": 0.6,
+                      "medium": 0.8
+                    },
+                    "pure_ai": {
+                      "reject": 0.33,
+                      "low": 0.6,
+                      "medium": 0.8
+                    }
+                  }
+                }
+              }
+            },
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly uncertain about this document. The writing style and content are not particularly AI-like.",
+            "result_sub_message": null,
+            "document_classification": "AI_ONLY",
+            "inputText": "Really enjoyed supporting Per Scholas learners during their Amazon visit. Mock interviews like these are a great way to bridge the gap between classroom learning and real-world career preparation 🚀",
+            "document_id": null
+          },
+          "backboard_report": "Based on the writing quality, here's an assessment:\n\nThe post exhibits signs of generic AI writing due to its highly conventional and clichéd phrasing. The statement \"Mock interviews like these are a great way to bridge the gap between classroom learning and real-world career preparation\" uses common buzzwords and a widely accepted, but unoriginal, observation. It lacks specific personal detail, unique insights, or a distinctive human voice that would differentiate it from a standard, positive, automatically generated summary of such an event.\n\nThere are no unsupported factual claims or manipulative language present; the post is a straightforward positive reflection."
+        },
+        {
+          "text": "With the summer fast approaching, I'm pleased to announce that I will be joining Amazon as an Operations Manager Intern this summer in Sacramento, CA! I look forward to gaining valuable experience, leading a dynamic team, and contributing to Amazon's commitment to excellence. Beyond excited for the opportunities and challenges that lie ahead! \n\n#Amazon #SummerIntern #OperationsManager #Student #FutureLeaders",
+          "publishedAt": "{'timestamp': 1717306124437, 'date': '2024-06-02T05:28:44.437Z', 'postedAgoShort': '2yr', 'postedAgoText': '2 years ago • Edited • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 1,
+          "classification": "ai",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 3,
+                "completely_generated_prob": 0.850090677245877
+              },
+              {
+                "start_sentence_index": 3,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.8181818033057853
+              }
+            ],
+            "completely_generated_prob": 1,
+            "average_generated_prob": 1,
+            "predicted_class": "ai",
+            "confidence_score": 1,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.9977765044115846,
+                "sentence": "With the summer fast approaching, I'm pleased to announce that I will be joining Amazon as an Operations Manager Intern this summer in Sacramento, CA!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0022234955884153466,
+                  "ai": 0.9977730789031732,
+                  "paraphrased": 3.4255084113603784e-06
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9992165857396874,
+                "sentence": "I look forward to gaining valuable experience, leading a dynamic team, and contributing to Amazon's commitment to excellence.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0007834142603126214,
+                  "ai": 0.9992133756909763,
+                  "paraphrased": 3.210048711020034e-06
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9992090486690148,
+                "sentence": "Beyond excited for the opportunities and challenges that lie ahead!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.0007909513309851977,
+                  "ai": 0.9992057237850431,
+                  "paraphrased": 3.3248839716509475e-06
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.9989066176894327,
+                "sentence": "#Amazon #SummerIntern #OperationsManager #Student #FutureLeaders",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.001093382310567318,
+                  "ai": 0.9989040592077498,
+                  "paraphrased": 2.5584816828754416e-06
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": true,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0,
+              "ai": 1,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "ai": 1,
+                "mixed": 0,
+                "human": 0
+              }
+            },
+            "subclass": {
+              "ai": {
+                "predicted_class": "pure_ai",
+                "result_message": "",
+                "confidence_score": 1,
+                "confidence_category": "high",
+                "class_probabilities": {
+                  "pure_ai": 1,
+                  "ai_paraphrased": 0
+                },
+                "confidence_scores_raw": {
+                  "identity": {
+                    "pure_ai": 1,
+                    "ai_paraphrased": 0
+                  }
+                },
+                "confidence_thresholds_raw": {
+                  "identity": {
+                    "ai_paraphrased": {
+                      "reject": 0.33,
+                      "low": 0.6,
+                      "medium": 0.8
+                    },
+                    "pure_ai": {
+                      "reject": 0.33,
+                      "low": 0.6,
+                      "medium": 0.8
+                    }
+                  }
+                }
+              }
+            },
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written by AI.",
+            "result_sub_message": null,
+            "document_classification": "AI_ONLY",
+            "inputText": "With the summer fast approaching, I'm pleased to announce that I will be joining Amazon as an Operations Manager Intern this summer in Sacramento, CA! I look forward to gaining valuable experience, leading a dynamic team, and contributing to Amazon's commitment to excellence. Beyond excited for the opportunities and challenges that lie ahead! \n\n#Amazon #SummerIntern #OperationsManager #Student #FutureLeaders",
+            "document_id": null
+          },
+          "backboard_report": "This LinkedIn post displays several characteristics commonly associated with generic AI-generated content:\n\n*   **Chronological Inconsistency:** The phrase \"With the summer fast approaching\" is out of sync with the current date (September 2026). An internship \"this summer\" would refer to Summer 2026, which is now past. This suggests a lack of real-world temporal awareness, a common AI characteristic when not specifically prompted with current context.\n*   **Generic Corporate Language:** The post relies heavily on overused, unoriginal phrases like \"pleased to announce,\" \"gaining valuable experience,\" \"leading a dynamic team,\" \"contributing to Amazon's commitment to excellence,\" and \"opportunities and challenges that lie ahead.\" These are standard, almost templated expressions often found in AI-generated professional announcements, lacking personal voice or unique detail.\n*   **Aspirational/Potentially Exaggerated Claim:** While not impossible, \"leading a dynamic team\" is a very strong and somewhat unusual claim for an Operations Manager *Intern*. This level of responsibility is often presented in aspirational AI-generated text designed to sound maximally impressive, rather than necessarily reflecting the precise duties of an intern."
+        },
+        {
+          "text": "I’m proud to announce that I’ll be returning to Amazon this summer as a Sourcing Recruiter Intern in Boston, MA!\n\nMy journey with Amazon started last summer in operations, where I had the chance to lead a dynamic team and experience the fast-paced world of fulfillment. More importantly, I was surrounded by incredible mentors who challenged me, supported my growth, and showcased Amazon’s innovative culture. A huge thank you to those who invested in me - I couldn’t have asked for a better experience!\n\nI’m excited to step into a new role in talent acquisition, helping Amazon recruit top talent and continuing to learn from the best. Looking forward to an exciting new chapter and another amazing summer!",
+          "publishedAt": "{'timestamp': 1741285802823, 'date': '2025-03-06T18:30:02.823Z', 'postedAgoShort': '1yr', 'postedAgoText': '1 year ago • Visible to anyone on or off LinkedIn'}",
+          "postUrl": "",
+          "likesCount": 0,
+          "commentsCount": 0,
+          "ai_probability": 0.11023839831954568,
+          "classification": "human",
+          "gptzero": {
+            "paragraphs": [
+              {
+                "start_sentence_index": 0,
+                "num_sentences": 1,
+                "completely_generated_prob": 0.11111110864197542
+              },
+              {
+                "start_sentence_index": 1,
+                "num_sentences": 3,
+                "completely_generated_prob": 0.00408719312638748
+              },
+              {
+                "start_sentence_index": 4,
+                "num_sentences": 2,
+                "completely_generated_prob": 0.02318840472169716
+              }
+            ],
+            "completely_generated_prob": 0.11023839831954568,
+            "average_generated_prob": 0,
+            "predicted_class": "human",
+            "confidence_score": 0.8897616016804544,
+            "confidence_category": "high",
+            "overall_burstiness": 0,
+            "writing_stats": {},
+            "excluded_spans": [],
+            "confidence_thresholds_raw": {
+              "identity": {
+                "ai": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "human": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                },
+                "mixed": {
+                  "reject": 0.33,
+                  "low": 0.6,
+                  "medium": 0.8
+                }
+              }
+            },
+            "sentences": [
+              {
+                "generated_prob": 0.34245908765561184,
+                "sentence": "I’m proud to announce that I’ll be returning to Amazon this summer as a Sourcing Recruiter Intern in Boston, MA!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.6575409123443882,
+                  "ai": 0.34046211577131186,
+                  "paraphrased": 0.001996971884299984
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.3201828689197023,
+                "sentence": "My journey with Amazon started last summer in operations, where I had the chance to lead a dynamic team and experience the fast-paced world of fulfillment.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.6798171310802976,
+                  "ai": 0.31800218994586615,
+                  "paraphrased": 0.0021806789738361954
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.28858869274037924,
+                "sentence": "More importantly, I was surrounded by incredible mentors who challenged me, supported my growth, and showcased Amazon’s innovative culture.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.7114113072596208,
+                  "ai": 0.2863155643406636,
+                  "paraphrased": 0.00227312839971569
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.30681583436153087,
+                "sentence": "A huge thank you to those who invested in me - I couldn’t have asked for a better experience!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.6931841656384691,
+                  "ai": 0.3052048545308081,
+                  "paraphrased": 0.0016109798307227699
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.2817292924878837,
+                "sentence": "I’m excited to step into a new role in talent acquisition, helping Amazon recruit top talent and continuing to learn from the best.",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.7182707075121163,
+                  "ai": 0.27963554409918084,
+                  "paraphrased": 0.0020937483887028324
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              },
+              {
+                "generated_prob": 0.3426721881097147,
+                "sentence": "Looking forward to an exciting new chapter and another amazing summer!",
+                "perplexity": 0,
+                "should_mask": false,
+                "masking_reason": null,
+                "class_probabilities": {
+                  "human": 0.6573278118902853,
+                  "ai": 0.3410171768358859,
+                  "paraphrased": 0.0016550112738288258
+                },
+                "interpretability_value": null,
+                "interpretability_normalized_value": null,
+                "interpretability_designation": null,
+                "interpretability_alpha": null,
+                "highlight_sentence_for_ai": false,
+                "special_highlight_type": null
+              }
+            ],
+            "class_probabilities": {
+              "human": 0.8897616016804544,
+              "ai": 0.11023839831954568,
+              "mixed": 0
+            },
+            "confidence_scores_raw": {
+              "identity": {
+                "human": 0.8897616016804544,
+                "ai": 0.11023839831954568,
+                "mixed": 0
+              }
+            },
+            "subclass": {},
+            "pageNumber": 0,
+            "version": "2026-09-13-base",
+            "language": "en",
+            "result_message": "Our detector is highly confident that the text is written entirely by a human.",
+            "result_sub_message": null,
+            "document_classification": "HUMAN_ONLY",
+            "inputText": "I’m proud to announce that I’ll be returning to Amazon this summer as a Sourcing Recruiter Intern in Boston, MA!\n\nMy journey with Amazon started last summer in operations, where I had the chance to lead a dynamic team and experience the fast-paced world of fulfillment. More importantly, I was surrounded by incredible mentors who challenged me, supported my growth, and showcased Amazon’s innovative culture. A huge thank you to those who invested in me - I couldn’t have asked for a better experience!\n\nI’m excited to step into a new role in talent acquisition, helping Amazon recruit top talent and continuing to learn from the best. Looking forward to an exciting new chapter and another amazing summer!",
+            "document_id": null
+          },
+          "backboard_report": "This post exhibits **signs of generic AI writing** through its heavy reliance on common professional platitudes and a predictable structure. Phrases like \"dynamic team,\" \"fast-paced world,\" \"incredible mentors who challenged me, supported my growth,\" \"Amazon’s innovative culture,\" \"recruit top talent,\" and \"learn from the best\" are frequently used in corporate communication and can sound somewhat formulaic, lacking specific, unique personal details. While not inherently poor writing, this generic language is a hallmark of current AI models trained on vast datasets of professional content.\n\nThere are **no unsupported factual claims** or **manipulation** evident; the post is a standard professional announcement and reflection on personal experiences."
+        }
+      ],
+      "profile": {
+        "name": "Unknown",
+        "headline": "",
+        "about": "",
+        "profileUrl": "https://www.linkedin.com/in/juliusbort/",
+        "avatarUrl": ""
+      }
     }
   ]
 }

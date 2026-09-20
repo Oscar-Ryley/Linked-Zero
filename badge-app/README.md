@@ -1,6 +1,6 @@
 https://badge.hackthenorth.com/ide/
 
-# Slop Scanner
+# Linked-Zero
 
 This self-contained demo app visualizes four fake LinkedIn profiles with their
 average GPTZero probability, then shows each profile summary and all three post
@@ -27,12 +27,12 @@ Run this workflow on the computer instead. It hard-codes the resulting reports
 into `badge-app/main.lua`, which is then pushed back to the badge.
 
 1. Connect with someone using the badge's normal Connect flow.
-2. Open Slop Scanner once. It snapshots the current badge contacts.
+2. Open Linked-Zero once. It snapshots the current badge contacts.
 3. Plug the badge into the laptop, connect in the Badge IDE, and run this in
    the IDE console:
 
 ```text
-cat /littlefs/appdata/slop_scanner/contacts.csv
+cat /littlefs/appdata/gpt-linkedin/contacts.csv
 ```
 
 Copy that CSV output into `badge-contacts.csv` on the laptop.
@@ -66,7 +66,7 @@ python sync_badge_app.py --contacts-file badge-contacts.example.json --mapping-f
 The command reads each profile's latest available posts, sends each post to
 GPTZero, then sends the post and GPTZero score to Backboard. It replaces the
 embedded Lua profile table and reports how many profiles were embedded. Review
-the generated app, Push the same `slop_scanner` slug in the Badge IDE, then
+the generated app, Push the same `gpt-linkedin` slug in the Badge IDE, then
 unplug the badge and open the app. The reports are now readable offline.
 
 ### How Backboard is used

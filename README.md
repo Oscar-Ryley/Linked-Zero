@@ -2,7 +2,7 @@
 
 **Challenges:** GPTZero, Backboard.io, Best use of Badge
 
-## LinkedIn Slop Analyzer
+## Linked-Zero
 
 This CLI accepts a LinkedIn profile URL, uses Apify to fetch the profile and at most
 three recent posts, scores each post with GPTZero, and asks Backboard for a cautious
